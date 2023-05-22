@@ -36,7 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/代码/
 /文档/
+/软件/
 /代码.zip
 /文档.zip
 /软件.zip
