@@ -1,0 +1,16 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: eureka-server
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 10000
+  client:
+    service-url:
+      defaultZone: http://node1.eureka:8761/eureka, http://node2.eureka:8762/eureka
+  instance:
+    hostname: node3.eureka
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5

@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: eureka-client-b-for-cluster
+eureka:
+  client:
+    service-url:
+      defaultZone: http://node2.eureka:8762/eureka
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5

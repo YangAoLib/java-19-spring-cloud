@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: eureka-client-a
+# 注册就是自己的信息（ip port……）发送到服务端（发到什么地方）
+eureka:
+  # 客户端一般进行 client与实例 的配置
+  client:
+    service-url: # 指定注册地址
+      default-zone: http://localhost:8761/eureka
+    fetch-registry: true # 是否拉取注册列表
+    registry-fetch-interval-seconds: 5 # 拉取注册列表的间隔时间（可以缓解脏读现象） 时间越短 脏读情况越少 性能开销越大
+    register-with-eureka: true # 是否注册到eureka
+  instance:
+    hostname: localhost # 应用的主机名 影响路径信息显示的主机名（一般要设成ip）
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port} # 应用的实例名
+    prefer-ip-address: true # 在显示应用信息时, 是否使用ip
+    lease-renewal-interval-in-seconds: 10 # 续约时间

@@ -1,0 +1,16 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: eureka-server # 因为是要做集群, 所以应用名需要相同
+eureka:
+  server:
+    eviction-interval-timer-in-ms:  10000
+  client:
+    service-url:
+      defaultZone: http://node1.eureka:8761/eureka, http://node3.eureka:8763/eureka
+  instance:
+    hostname: node2.eureka
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5

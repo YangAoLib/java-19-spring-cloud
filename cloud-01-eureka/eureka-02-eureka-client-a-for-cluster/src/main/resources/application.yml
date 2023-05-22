@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: eureka-client-a-for-cluster
+eureka:
+  client:
+    service-url:
+      # 如果同时向注册中心集群进行注册, 可以向集群中所有的机器进行注册, 保证高可用（防止某个服务失效, 导致本节点无法注册）
+      defaultZone: http://node1.eureka:8761/eureka
+  instance:
+    hostname: localhost
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-b/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-a/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-c/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/eureka-02-eureka-client-a-for-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a-for-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b-for-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-ultimately/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/eureka-02-eureka-client-a-for-cluster/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
