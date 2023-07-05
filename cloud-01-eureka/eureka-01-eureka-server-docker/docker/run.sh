@@ -1,0 +1,1 @@
+docker build -t eureka-server-docker:0.0.1 .

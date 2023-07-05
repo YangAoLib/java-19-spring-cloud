@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a-for-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b-for-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-ultimately/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-docker/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
