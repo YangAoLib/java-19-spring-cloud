@@ -1,4 +1,4 @@
-package edu.yangao.eureka03eurekaclientb;
+package edu.yangao;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package edu.yangao.eureka03eurekaclientb;
+package edu.yangao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
