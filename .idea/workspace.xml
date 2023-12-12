@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-docker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-docker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b-for-cluster/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b-for-cluster/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="包名修改">
+      <change afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/src/main/java/edu/yangao/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/java/edu/yangao/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/java/edu/yangao/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,7 +155,7 @@
     </configuration>
     <configuration name="Eureka03EurekaClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端" nameIsGenerated="true">
       <module name="eureka-03-eureka-client-b" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.eureka03eurekaclientb.Eureka03EurekaClientBApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka03EurekaClientBApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,8 +208,73 @@
       <workItem from="1702351366725" duration="4757000" />
       <workItem from="1702390623356" duration="1127000" />
       <workItem from="1702392193825" duration="35000" />
-      <workItem from="1702392348112" duration="1876000" />
+      <workItem from="1702392348112" duration="2402000" />
     </task>
+    <task id="LOCAL-00001" summary="更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1702395450453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395450453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1702395504940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395504940</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新idea配置">
+      <option name="closed" value="true" />
+      <created>1702395536451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395536451</updated>
+    </task>
+    <task id="LOCAL-00004" summary="eureka docker镜像添加是否注册自身配置">
+      <option name="closed" value="true" />
+      <created>1702395555496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395555496</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加hostname">
+      <option name="closed" value="true" />
+      <created>1702395581018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395581018</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更改default-zone→defaultZone 如果使用default-zone无法被正确识别">
+      <option name="closed" value="true" />
+      <created>1702395629763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395629763</updated>
+    </task>
+    <task id="LOCAL-00007" summary="单体eureka不进行自身注册">
+      <option name="closed" value="true" />
+      <created>1702395649532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395649532</updated>
+    </task>
+    <task id="LOCAL-00008" summary="包名修改">
+      <option name="closed" value="true" />
+      <created>1702395736522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395736522</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +290,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新忽略文件" />
+    <MESSAGE value="更新idea配置" />
+    <MESSAGE value="eureka docker镜像添加是否注册自身配置" />
+    <MESSAGE value="添加hostname" />
+    <MESSAGE value="更改default-zone→defaultZone 如果使用default-zone无法被正确识别" />
+    <MESSAGE value="单体eureka不进行自身注册" />
+    <MESSAGE value="包名修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="包名修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

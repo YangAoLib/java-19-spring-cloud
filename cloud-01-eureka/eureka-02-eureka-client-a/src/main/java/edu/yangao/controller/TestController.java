@@ -4,8 +4,10 @@ import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -25,10 +27,14 @@ public class TestController {
         int port = serviceInstance.getPort();
         System.out.println(ip + ":" + port);
 
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<String> entity = restTemplate.getForEntity("http://" + ip + ":" + port + "/test", String.class);
+
         instances.forEach(System.out::println);
-        return instances.get(0).toString();
+        return entity.getBody();
     }
 
     @Resource
     private DiscoveryClient discoveryClient;
+
 }
