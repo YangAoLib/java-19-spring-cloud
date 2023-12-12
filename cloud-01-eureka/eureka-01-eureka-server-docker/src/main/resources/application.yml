@@ -11,6 +11,7 @@ eureka:
       # 要同时注册到多个注册中心, 将注册中心的地址使用逗号分隔
       # 因为 service-url 是以Map的形式进行的存储, 所以defaultZone不可以被替换成default-zone
       defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+    register-with-eureka: ${REGISTER_WITH_EUREKA:true}
   instance:
     instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
     prefer-ip-address: ${PREFER_IP_ADDRESS:true}
