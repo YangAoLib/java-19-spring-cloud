@@ -8,6 +8,7 @@ eureka:
     service-url:
       defaultZone: http://node2.eureka:8762/eureka
   instance:
-    instance-id: ${spring.application.name}:${server.port}
+    hostname: localhost
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
