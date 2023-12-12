@@ -1,6 +1,5 @@
 **/target/
 !.mvn/wrapper/maven-wrapper.jar
-!.idea/workspace.xml
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -10,6 +9,7 @@
 *.iws
 *.iml
 *.ipr
+!.idea/workspace.xml
 
 ### Eclipse ###
 .apt_generated
