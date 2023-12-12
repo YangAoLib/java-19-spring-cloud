@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-docker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-docker/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b-for-cluster/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b-for-cluster/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Y6xw1dkZRl3eZox8q7frDcvTnz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;StatusDashboardGroupingRule&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.控制台字体&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Eureka01EurekaServerUltimatelyApplication-C-8763">
+    <configuration name="Eureka01EurekaServerAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="多项目集群Eureka" nameIsGenerated="true">
+      <module name="eureka-01-eureka-server-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka" nameIsGenerated="true">
+      <module name="eureka-01-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="多项目集群Eureka" nameIsGenerated="true">
+      <module name="eureka-01-eureka-server-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerBApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="多项目集群Eureka" nameIsGenerated="true">
+      <module name="eureka-01-eureka-server-c" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerCApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerDockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-01-eureka-server-docker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerDockerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerUltimatelyApplication-A-8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单项目Eureka集群">
+      <module name="eureka-01-eureka-server-ultimately" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8761 --eureka.instance.hostname=node1.eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerUltimatelyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerUltimatelyApplication-B-8762" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单项目Eureka集群">
+      <module name="eureka-01-eureka-server-ultimately" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8762 --eureka.instance.hostname=node2.eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerUltimatelyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka01EurekaServerUltimatelyApplication-C-8763" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单项目Eureka集群">
+      <module name="eureka-01-eureka-server-ultimately" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8763 --eureka.instance.hostname=node3.eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerUltimatelyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka02EurekaClient-A-Application-8083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端">
+      <module name="eureka-02-eureka-client-a" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8083" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka02EurekaClientAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka02EurekaClient-A-Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端">
+      <module name="eureka-02-eureka-client-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka02EurekaClientAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka02EurekaClientAForClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="集群Eureka客户端" nameIsGenerated="true">
+      <module name="eureka-02-eureka-client-a-for-cluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka02EurekaClientAForClusterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka03EurekaClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端" nameIsGenerated="true">
+      <module name="eureka-03-eureka-client-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.eureka03eurekaclientb.Eureka03EurekaClientBApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka03EurekaClientBForClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="集群Eureka客户端" nameIsGenerated="true">
+      <module name="eureka-03-eureka-client-b-for-cluster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka03EurekaClientBForClusterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka04RestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-04-rest-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka04RestTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Eureka01EurekaServerApplication" />
+      <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
+      <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application-8083" />
+      <item itemvalue="Spring Boot.Eureka03EurekaClientBApplication" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerUltimatelyApplication-A-8761" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerUltimatelyApplication-B-8762" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerUltimatelyApplication-C-8763" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerBApplication" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerCApplication" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerAApplication" />
+      <item itemvalue="Spring Boot.Eureka02EurekaClientAForClusterApplication" />
+      <item itemvalue="Spring Boot.Eureka03EurekaClientBForClusterApplication" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
+      <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="" />
+      <created>1699860065208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699860065208</updated>
+      <workItem from="1699860066241" duration="817000" />
+      <workItem from="1699864985303" duration="400000" />
+      <workItem from="1699924417122" duration="5153000" />
+      <workItem from="1700011245298" duration="19000" />
+      <workItem from="1700011389846" duration="26000" />
+      <workItem from="1702277496692" duration="1109000" />
+      <workItem from="1702351366725" duration="4757000" />
+      <workItem from="1702390623356" duration="1127000" />
+      <workItem from="1702392193825" duration="35000" />
+      <workItem from="1702392348112" duration="1876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-client/1.10.14/eureka-client-1.10.14.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>320</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-client/1.10.14/eureka-client-1.10.14.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>599</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-client/1.10.14/eureka-client-1.10.14.jar!/com/netflix/discovery/shared/transport/jersey/AbstractJerseyEurekaHttpClient.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/resources/ApplicationResource.class</url>
+          <line>123</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.9.RELEASE/spring-cloud-netflix-eureka-server-2.2.9.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/InstanceRegistry.class</url>
+          <line>53</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.class</url>
+          <line>281</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
+          <line>150</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
+          <line>160</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
+          <line>181</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
+          <line>186</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
