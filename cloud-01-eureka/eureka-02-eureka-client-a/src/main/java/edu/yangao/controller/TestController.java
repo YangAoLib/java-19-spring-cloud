@@ -28,10 +28,10 @@ public class TestController {
         System.out.println(ip + ":" + port);
 
         RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> entity = restTemplate.getForEntity("http://" + ip + ":" + port + "/test", String.class);
+        String result = restTemplate.getForObject("http://" + ip + ":" + port + "/test", String.class);
 
         instances.forEach(System.out::println);
-        return entity.getBody();
+        return result;
     }
 
     @Resource

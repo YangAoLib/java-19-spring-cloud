@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="包名修改">
-      <change afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-03-eureka-client-b/src/main/java/edu/yangao/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/java/edu/yangao/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a/src/main/java/edu/yangao/controller/TestController.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="客户端A http 请求调用客户端B" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -208,7 +208,7 @@
       <workItem from="1702351366725" duration="4757000" />
       <workItem from="1702390623356" duration="1127000" />
       <workItem from="1702392193825" duration="35000" />
-      <workItem from="1702392348112" duration="2402000" />
+      <workItem from="1702392348112" duration="2578000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -274,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702395736522</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="客户端A http 请求调用客户端B">
+      <option name="closed" value="true" />
+      <created>1702396050105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702396050105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +307,8 @@
     <MESSAGE value="更改default-zone→defaultZone 如果使用default-zone无法被正确识别" />
     <MESSAGE value="单体eureka不进行自身注册" />
     <MESSAGE value="包名修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="包名修改" />
+    <MESSAGE value="客户端A http 请求调用客户端B" />
+    <option name="LAST_COMMIT_MESSAGE" value="客户端A http 请求调用客户端B" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
