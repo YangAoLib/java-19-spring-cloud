@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="客户端A http 请求调用客户端B" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="客户端A http 请求调用客户端B">
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/java/edu/yangao/Ribbon01ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/test/java/edu/yangao/Ribbon01ProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +36,9 @@
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -50,11 +64,15 @@
     &quot;StatusDashboardGroupingRule&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.控制台字体&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.color&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,42 +90,42 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Eureka01EurekaServerUltimatelyApplication-C-8763">
-    <configuration name="Eureka01EurekaServerAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="多项目集群Eureka" nameIsGenerated="true">
+    <configuration name="Eureka01EurekaServerAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/多项目" nameIsGenerated="true">
       <module name="eureka-01-eureka-server-a" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerAApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka" nameIsGenerated="true">
+    <configuration name="Eureka01EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/单体/服务" nameIsGenerated="true">
       <module name="eureka-01-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="多项目集群Eureka" nameIsGenerated="true">
+    <configuration name="Eureka01EurekaServerBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/多项目" nameIsGenerated="true">
       <module name="eureka-01-eureka-server-b" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerBApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="多项目集群Eureka" nameIsGenerated="true">
+    <configuration name="Eureka01EurekaServerCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/多项目" nameIsGenerated="true">
       <module name="eureka-01-eureka-server-c" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerCApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerDockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Eureka01EurekaServerDockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/docker/服务" nameIsGenerated="true">
       <module name="eureka-01-eureka-server-docker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerDockerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerUltimatelyApplication-A-8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单项目Eureka集群">
+    <configuration name="Eureka01EurekaServerUltimatelyApplication-A-8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/单项目">
       <module name="eureka-01-eureka-server-ultimately" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8761 --eureka.instance.hostname=node1.eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerUltimatelyApplication" />
@@ -115,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerUltimatelyApplication-B-8762" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单项目Eureka集群">
+    <configuration name="Eureka01EurekaServerUltimatelyApplication-B-8762" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/单项目">
       <module name="eureka-01-eureka-server-ultimately" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8762 --eureka.instance.hostname=node2.eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerUltimatelyApplication" />
@@ -123,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka01EurekaServerUltimatelyApplication-C-8763" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单项目Eureka集群">
+    <configuration name="Eureka01EurekaServerUltimatelyApplication-C-8763" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/单项目">
       <module name="eureka-01-eureka-server-ultimately" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8763 --eureka.instance.hostname=node3.eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerUltimatelyApplication" />
@@ -131,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka02EurekaClient-A-Application-8083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端">
+    <configuration name="Eureka02EurekaClient-A-Application-8083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/单体/客户端">
       <module name="eureka-02-eureka-client-a" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8083" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka02EurekaClientAApplication" />
@@ -139,56 +157,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka02EurekaClient-A-Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端">
+    <configuration name="Eureka02EurekaClient-A-Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/单体/客户端">
       <module name="eureka-02-eureka-client-a" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka02EurekaClientAApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka02EurekaClientAForClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="集群Eureka客户端" nameIsGenerated="true">
+    <configuration name="Eureka02EurekaClientAForClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/客户端" nameIsGenerated="true">
       <module name="eureka-02-eureka-client-a-for-cluster" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka02EurekaClientAForClusterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka03EurekaClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="单体Eureka客户端" nameIsGenerated="true">
+    <configuration name="Eureka03EurekaClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/单体/客户端" nameIsGenerated="true">
       <module name="eureka-03-eureka-client-b" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka03EurekaClientBApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka03EurekaClientBForClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="集群Eureka客户端" nameIsGenerated="true">
+    <configuration name="Eureka03EurekaClientBForClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/客户端" nameIsGenerated="true">
       <module name="eureka-03-eureka-client-b-for-cluster" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka03EurekaClientBForClusterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka04RestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Eureka04RestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka" nameIsGenerated="true">
       <module name="eureka-04-rest-template" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka04RestTemplateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ribbon01ProviderApplication-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ribbon-01-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ribbon-01-provider" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ribbon02ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/消费者" nameIsGenerated="true">
+      <module name="ribbon-02-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon02ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.Eureka01EurekaServerApplication" />
+      <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application-8083" />
       <item itemvalue="Spring Boot.Eureka03EurekaClientBApplication" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerApplication" />
+      <item itemvalue="Spring Boot.Eureka02EurekaClientAForClusterApplication" />
+      <item itemvalue="Spring Boot.Eureka03EurekaClientBForClusterApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerUltimatelyApplication-A-8761" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerUltimatelyApplication-B-8762" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerUltimatelyApplication-C-8763" />
+      <item itemvalue="Spring Boot.Eureka01EurekaServerAApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerBApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerCApplication" />
-      <item itemvalue="Spring Boot.Eureka01EurekaServerAApplication" />
-      <item itemvalue="Spring Boot.Eureka02EurekaClientAForClusterApplication" />
-      <item itemvalue="Spring Boot.Eureka03EurekaClientBForClusterApplication" />
-      <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
-      <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
+      <item itemvalue="Spring Boot.Ribbon02ConsumerApplication" />
+      <item itemvalue="Spring Boot.Ribbon01ProviderApplication-8081" />
+      <item itemvalue="Spring Boot.Ribbon01ProviderApplication-8082" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -209,6 +256,14 @@
       <workItem from="1702390623356" duration="1127000" />
       <workItem from="1702392193825" duration="35000" />
       <workItem from="1702392348112" duration="2578000" />
+      <workItem from="1702431569804" duration="424000" />
+      <workItem from="1702432205320" duration="305000" />
+      <workItem from="1702432517577" duration="1237000" />
+      <workItem from="1702434073397" duration="82000" />
+      <workItem from="1702434170660" duration="18000" />
+      <workItem from="1702434196943" duration="20000" />
+      <workItem from="1702434224574" duration="58000" />
+      <workItem from="1702434290423" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -282,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702396050105</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="客户端A http 请求调用客户端B">
+      <option name="closed" value="true" />
+      <created>1702431742374</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702431742374</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

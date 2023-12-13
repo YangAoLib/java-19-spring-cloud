@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -20,6 +21,9 @@
         <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-ultimately/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server-docker/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-01-eureka/eureka-04-rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-02-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

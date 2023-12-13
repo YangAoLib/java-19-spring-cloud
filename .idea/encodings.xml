@@ -18,6 +18,11 @@
     <file url="file://$PROJECT_DIR$/cloud-01-eureka/eureka-04-rest-template/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-01-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-01-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-02-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-02-ribbon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
