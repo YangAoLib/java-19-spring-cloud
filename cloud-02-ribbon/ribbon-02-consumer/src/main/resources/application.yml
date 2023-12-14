@@ -10,3 +10,13 @@ eureka:
   instance:
     hostname: localhost
     instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+# 给某个服务指定负载均衡规则（优先级低于全局规则配置）
+# 服务名:
+#     ribbon:
+#        NFLoadBalancerRuleClassName: 规则的全限定类名
+ribbon-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+test-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule

@@ -1,5 +1,7 @@
 package edu.yangao;
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -20,4 +22,13 @@ public class Ribbon02ConsumerApplication {
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
+
+	/**
+	 * 替换全局的ribbon负载均衡默认规则
+	 * @return 随机规则
+	 */
+	/* @Bean
+	public IRule ribbonRule() {
+		return new RandomRule();
+	} */
 }

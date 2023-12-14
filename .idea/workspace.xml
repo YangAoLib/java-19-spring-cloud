@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="客户端A http 请求调用客户端B">
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/java/edu/yangao/Ribbon01ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/src/test/java/edu/yangao/Ribbon01ProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="rest template ribbon 负载均衡">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java/edu/yangao/Ribbon02ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java/edu/yangao/Ribbon02ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Java/openjdk-8u392/src.zip!/java/util/Map.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Java/openjdk-8u392/src.zip!/java/util/TimerTask.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar!/com/netflix/util/concurrent/ShutdownEnabledTimer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-eureka/2.3.0/ribbon-eureka-2.3.0-sources.jar!/com/netflix/niws/loadbalancer/NIWSDiscoveryPing.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/IPing.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/IPingStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -74,6 +85,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.color&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;TEXT&quot;
+    ]
   }
 }</component>
   <component name="ReactorSettings">
@@ -88,8 +104,19 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="Ribbon01ProviderApplication-8082" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka01EurekaServerUltimatelyApplication-C-8763">
+  <component name="RunManager" selected="Spring Boot.Eureka04RestTemplateApplication">
     <configuration name="Eureka01EurekaServerAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/多项目" nameIsGenerated="true">
       <module name="eureka-01-eureka-server-a" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerAApplication" />
@@ -192,7 +219,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ribbon01ProviderApplication-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
+    <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ribbon-01-provider" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8082 --spring.application.name=test-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ribbon01RibbonProviderApplication-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者/ribbon-provider">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="ribbon-01-provider" />
@@ -201,11 +238,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
+    <configuration name="Ribbon01RibbonProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者/ribbon-provider">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="ribbon-01-provider" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8082" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ribbon01TestProviderApplication-8091" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者/test-provider">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ribbon-01-provider" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8091 --spring.application.name=test-provider" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ribbon01TestProviderApplication-8092" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者/test-provider">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ribbon-01-provider" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8092 --spring.application.name=test-provider" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Ribbon01ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,6 +283,12 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
@@ -234,8 +306,11 @@
       <item itemvalue="Spring Boot.Eureka01EurekaServerBApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerCApplication" />
       <item itemvalue="Spring Boot.Ribbon02ConsumerApplication" />
-      <item itemvalue="Spring Boot.Ribbon01ProviderApplication-8081" />
       <item itemvalue="Spring Boot.Ribbon01ProviderApplication-8082" />
+      <item itemvalue="Spring Boot.Ribbon01RibbonProviderApplication-8081" />
+      <item itemvalue="Spring Boot.Ribbon01RibbonProviderApplication-8082" />
+      <item itemvalue="Spring Boot.Ribbon01TestProviderApplication-8091" />
+      <item itemvalue="Spring Boot.Ribbon01TestProviderApplication-8092" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -263,7 +338,10 @@
       <workItem from="1702434170660" duration="18000" />
       <workItem from="1702434196943" duration="20000" />
       <workItem from="1702434224574" duration="58000" />
-      <workItem from="1702434290423" duration="1438000" />
+      <workItem from="1702434290423" duration="4594000" />
+      <workItem from="1702457952532" duration="199000" />
+      <workItem from="1702458161084" duration="10221000" />
+      <workItem from="1702516579504" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -345,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702431742374</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="rest template ribbon 负载均衡">
+      <option name="closed" value="true" />
+      <created>1702435825373</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702435825373</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,60 +457,31 @@
     <MESSAGE value="单体eureka不进行自身注册" />
     <MESSAGE value="包名修改" />
     <MESSAGE value="客户端A http 请求调用客户端B" />
-    <option name="LAST_COMMIT_MESSAGE" value="客户端A http 请求调用客户端B" />
+    <MESSAGE value="rest template ribbon 负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="rest template ribbon 负载均衡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-client/1.10.14/eureka-client-1.10.14.jar!/com/netflix/discovery/DiscoveryClient.class</url>
-          <line>320</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-client/1.10.14/eureka-client-1.10.14.jar!/com/netflix/discovery/DiscoveryClient.class</url>
-          <line>599</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-client/1.10.14/eureka-client-1.10.14.jar!/com/netflix/discovery/shared/transport/jersey/AbstractJerseyEurekaHttpClient.class</url>
-          <line>47</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/resources/ApplicationResource.class</url>
-          <line>123</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.9.RELEASE/spring-cloud-netflix-eureka-server-2.2.9.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/InstanceRegistry.class</url>
-          <line>53</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.class</url>
-          <line>281</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
-          <line>150</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
-          <line>160</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
-          <line>181</line>
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java</url>
+          <line>754</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/eureka/eureka-core/1.10.14/eureka-core-1.10.14.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class</url>
-          <line>186</line>
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java</url>
+          <line>185</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
