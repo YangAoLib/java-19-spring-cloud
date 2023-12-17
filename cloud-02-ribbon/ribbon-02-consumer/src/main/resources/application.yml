@@ -20,3 +20,20 @@ ribbon-provider:
 test-provider:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+ribbon:
+  eager-load:
+    # 是否启动的时候就加载服务列表
+    enabled: false
+  eureka:
+    # 是否支持eureka
+    enabled: true
+  # 使用 RestTemplate 发送请求 实际是使用 java.net.HttpURLConnection 发送的请求 （因为是JDK自带 所以使用方便 但是不支持连接池）
+  # HttpClient 支持连接池
+  http:
+    client:
+      # 是否支持 使用 HttpClient 来发送请求
+      enabled: false
+  # okhttp 移动端常用
+  okhttp:
+    # 是否支持 使用 okhttp 来发送请求
+    enabled: false
