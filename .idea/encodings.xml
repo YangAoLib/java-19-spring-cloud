@@ -23,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-02-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-02-ribbon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-03-feign/src/main/java" charset="UTF-8" />

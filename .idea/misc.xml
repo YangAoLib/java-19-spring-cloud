@@ -27,6 +27,8 @@
         <option value="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-03-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-03-feign/feign-00-base/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

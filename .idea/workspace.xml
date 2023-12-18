@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="ribbon 可选配置与其默认值 添加">
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/pom.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feign初步使用">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java/edu/yangao/entity/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java/edu/yangao/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java/edu/yangao/enums/ResultStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/Feign01ProviderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/test/java/edu/yangao/Feign01ProviderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/Feign02ConsumerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +120,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "settings.editor.selected.configurable": "preferences.rainbow.brackets.color",
     "vue.rearranger.settings.migration": "true"
@@ -401,7 +413,10 @@
       <workItem from="1702516579504" duration="3561000" />
       <workItem from="1702624031685" duration="714000" />
       <workItem from="1702817794333" duration="290000" />
-      <workItem from="1702862222882" duration="1995000" />
+      <workItem from="1702862222882" duration="3542000" />
+      <workItem from="1702866069778" duration="206000" />
+      <workItem from="1702866283557" duration="20000" />
+      <workItem from="1702866333404" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -507,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702818004417</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feign初步使用">
+      <option name="closed" value="true" />
+      <created>1702864738327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702864738327</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +559,8 @@
     <MESSAGE value="rest template ribbon 负载均衡" />
     <MESSAGE value="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法" />
     <MESSAGE value="ribbon 可选配置与其默认值 添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="ribbon 可选配置与其默认值 添加" />
+    <MESSAGE value="feign初步使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign初步使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
