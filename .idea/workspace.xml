@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="ribbon 可选配置与其默认值 添加">
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +23,28 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,7 +81,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2Y6xw1dkZRl3eZox8q7frDcvTnz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,8 +99,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-03-feign/feign-02-consumer/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,6 +124,11 @@
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-03-feign\feign-02-consumer\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -218,6 +251,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feign01ProviderApplication-8090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="03feign/生产者">
+      <module name="feign-01-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Feign01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feign01ProviderApplication-8091" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="03feign/生产者">
+      <module name="feign-01-provider" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8091" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Feign01ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feign02ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="03feign/消费者" nameIsGenerated="true">
+      <module name="feign-02-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Feign02ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -310,6 +365,9 @@
       <item itemvalue="Spring Boot.Ribbon01RibbonProviderApplication-8082" />
       <item itemvalue="Spring Boot.Ribbon01TestProviderApplication-8091" />
       <item itemvalue="Spring Boot.Ribbon01TestProviderApplication-8092" />
+      <item itemvalue="Spring Boot.Feign02ConsumerApplication" />
+      <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
+      <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -342,6 +400,8 @@
       <workItem from="1702458161084" duration="10221000" />
       <workItem from="1702516579504" duration="3561000" />
       <workItem from="1702624031685" duration="714000" />
+      <workItem from="1702817794333" duration="290000" />
+      <workItem from="1702862222882" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -439,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702522307193</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ribbon 可选配置与其默认值 添加">
+      <option name="closed" value="true" />
+      <created>1702818004417</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702818004417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +535,8 @@
     <MESSAGE value="客户端A http 请求调用客户端B" />
     <MESSAGE value="rest template ribbon 负载均衡" />
     <MESSAGE value="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法" />
+    <MESSAGE value="ribbon 可选配置与其默认值 添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="ribbon 可选配置与其默认值 添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

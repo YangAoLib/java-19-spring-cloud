@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cloud-01-eureka/eureka-02-eureka-client-a" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-03-feign/feign-02-consumer" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,6 +25,8 @@
         <option value="$PROJECT_DIR$/cloud-02-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-02-ribbon/ribbon-01-provider/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-02-ribbon/ribbon-02-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
