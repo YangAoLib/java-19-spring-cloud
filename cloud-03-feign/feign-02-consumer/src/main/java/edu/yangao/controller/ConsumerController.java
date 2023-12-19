@@ -55,7 +55,7 @@ public class ConsumerController {
     }
 
     /**
-     * get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）
+     * get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输, 或者使用对象进行包裹然后通过body进行传参, 或者在请求和调用的地方都通过 {@link org.springframework.format.annotation.DateTimeFormat} 来指明日期格式化的方式）
      */
     @GetMapping("get-date")
     public Result<Date> getDate() {

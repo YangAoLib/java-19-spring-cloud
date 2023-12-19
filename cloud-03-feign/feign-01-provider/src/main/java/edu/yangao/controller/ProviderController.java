@@ -4,6 +4,7 @@ import edu.yangao.entity.OrderInfo;
 import edu.yangao.entity.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
@@ -65,7 +66,7 @@ public class ProviderController {
      * @return 收到的日期
      */
     @GetMapping("get-date")
-    public Result<Date> getDate(@RequestParam("date") Date date) {
+    public Result<Date> getDate(@DateTimeFormat(pattern = "yyyy-MM-DD HH:mm:ss") @RequestParam("date") Date date) {
         log.info("date: {}", date);
         return Result.success("操作成功" + port, date);
     }

@@ -3,6 +3,7 @@ package edu.yangao.feign;
 import edu.yangao.entity.OrderInfo;
 import edu.yangao.entity.Result;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
@@ -49,5 +50,5 @@ public interface ProviderFeign {
      * @return 收到的日期
      */
     @GetMapping("get-date")
-    Result<Date> getDate(@RequestParam("date") Date date);
+    Result<Date> getDate(@DateTimeFormat(pattern = "yyyy-MM-DD HH:mm:ss") @RequestParam("date") Date date);
 }

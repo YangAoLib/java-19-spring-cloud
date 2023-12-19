@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）">
-      <change afterPath="$PROJECT_DIR$/.idea/mybatis-log.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/proxy/ProviderFeignProxyTest.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="简单手写 如何生成feign接口的代理对象">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,9 +116,9 @@
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
     "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8090.executor": "JRebel Executor",
+    "Spring Boot.Feign01ProviderApplication-8090.executor": "Debug",
     "Spring Boot.Feign01ProviderApplication-8091.executor": "JRebel Executor",
-    "Spring Boot.Feign02ConsumerApplication.executor": "JRebel Executor",
+    "Spring Boot.Feign02ConsumerApplication.executor": "Debug",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
@@ -483,7 +483,7 @@
       <workItem from="1702891676788" duration="331000" />
       <workItem from="1702892049108" duration="1760000" />
       <workItem from="1702948827077" duration="2004000" />
-      <workItem from="1702956636786" duration="6012000" />
+      <workItem from="1702956636786" duration="7844000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -621,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702952497915</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="简单手写 如何生成feign接口的代理对象">
+      <option name="closed" value="true" />
+      <created>1702967578586</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702967578586</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +661,8 @@
     <MESSAGE value="feign初步使用" />
     <MESSAGE value="忽略文件更新" />
     <MESSAGE value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
-    <option name="LAST_COMMIT_MESSAGE" value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
+    <MESSAGE value="简单手写 如何生成feign接口的代理对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单手写 如何生成feign接口的代理对象" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
