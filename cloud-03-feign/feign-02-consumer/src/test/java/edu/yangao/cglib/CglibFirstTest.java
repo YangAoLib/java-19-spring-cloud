@@ -1,9 +1,10 @@
 package edu.yangao.cglib;
 
-import net.sf.cglib.proxy.Callback;
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.NoOp;
+
 import org.junit.jupiter.api.Test;
+import org.springframework.cglib.proxy.Callback;
+import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.NoOp;
 
 public class CglibFirstTest {
 

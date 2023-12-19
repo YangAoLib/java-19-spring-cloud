@@ -1,6 +1,7 @@
 package edu.yangao.cglib;
 
-import net.sf.cglib.proxy.Enhancer;
+
+import org.springframework.cglib.proxy.Enhancer;
 
 /**
  * 被代理类

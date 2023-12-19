@@ -1,6 +1,7 @@
 package edu.yangao.cglib;
 
-import net.sf.cglib.proxy.CallbackFilter;
+
+import org.springframework.cglib.proxy.CallbackFilter;
 
 import java.lang.reflect.Method;
 

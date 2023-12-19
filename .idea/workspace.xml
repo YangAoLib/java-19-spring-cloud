@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式">
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/CglibFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/PropertyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallbackFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetFixedValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanLazyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/cglib/ProviderFeignCglibTest.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="cglib 添加注释">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/CglibFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/CglibFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallbackFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallbackFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetFixedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetFixedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanLazyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanLazyLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +87,18 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="nonRecursive" value="true" />
+        <option name="mavenHome" value="D:\dev\Maven\apache-maven-3.9.5" />
         <option name="outputLevel" value="DEBUG" />
         <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\dev\Maven\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -112,6 +118,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
+    "JUnit.ProviderFeignCglibTest.testInvoke.executor": "Run",
     "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
     "Maven.feign-02-consumer [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -144,7 +151,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -527,7 +534,7 @@
       <workItem from="1702891676788" duration="331000" />
       <workItem from="1702892049108" duration="1760000" />
       <workItem from="1702948827077" duration="2004000" />
-      <workItem from="1702956636786" duration="18359000" />
+      <workItem from="1702956636786" duration="19224000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -681,7 +688,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702970407372</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="cglib 生成代理对象 请求feign">
+      <option name="closed" value="true" />
+      <created>1702986993465</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702986993465</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cglib 添加注释">
+      <option name="closed" value="true" />
+      <created>1702987218821</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702987218821</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,7 +738,9 @@
     <MESSAGE value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
     <MESSAGE value="简单手写 如何生成feign接口的代理对象" />
     <MESSAGE value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
+    <MESSAGE value="cglib 生成代理对象 请求feign" />
+    <MESSAGE value="cglib 添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="cglib 添加注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,7 @@
 package edu.yangao.cglib;
 
-import net.sf.cglib.proxy.LazyLoader;
+
+import org.springframework.cglib.proxy.LazyLoader;
 
 /**
  * lazy loader 懒加载

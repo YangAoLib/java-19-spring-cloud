@@ -1,6 +1,7 @@
 package edu.yangao.cglib;
 
-import net.sf.cglib.proxy.Dispatcher;
+
+import org.springframework.cglib.proxy.Dispatcher;
 
 /**
  * dispatcher 懒加载 （每次获取变量都会运行）
