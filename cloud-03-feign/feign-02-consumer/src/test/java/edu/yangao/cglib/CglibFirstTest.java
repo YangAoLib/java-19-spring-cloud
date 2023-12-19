@@ -12,7 +12,7 @@ public class CglibFirstTest {
     void testCglib() {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(TargetObj.class);
-        enhancer.setCallbacks(new Callback[]{NoOp.INSTANCE, new TargetCallback(), new TargetFixedValue()});
+        enhancer.setCallbacks(new Callback[]{NoOp.INSTANCE, new TargetInterceptor(), new TargetFixedValue()});
         enhancer.setCallbackFilter(new TargetCallbackFilter());
         TargetObj targetObj = (TargetObj) enhancer.create();
         System.out.println(targetObj);

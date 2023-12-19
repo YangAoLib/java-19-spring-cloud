@@ -6,7 +6,11 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
-public class TargetCallback implements MethodInterceptor {
+/**
+ * 代理 拦截器
+ * 对方法进行代理拦截
+ */
+public class TargetInterceptor implements MethodInterceptor {
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {

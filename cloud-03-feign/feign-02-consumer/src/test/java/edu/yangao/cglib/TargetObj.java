@@ -2,6 +2,9 @@ package edu.yangao.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 
+/**
+ * 被代理类
+ */
 public class TargetObj {
 
     /**

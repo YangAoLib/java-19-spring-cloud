@@ -2,6 +2,10 @@ package edu.yangao.cglib;
 
 import net.sf.cglib.proxy.LazyLoader;
 
+/**
+ * lazy loader 懒加载
+ * 只有第一次获取变量会被执行
+ */
 public class TargetPropertyBeanLazyLoader implements LazyLoader {
 
     @Override
