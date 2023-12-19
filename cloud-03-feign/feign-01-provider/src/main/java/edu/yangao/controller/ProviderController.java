@@ -22,7 +22,9 @@ public class ProviderController {
      * get请求 无参
      */
     @GetMapping("nothing-provider")
-    public Result<String> getNothingProvider() {
+    public Result<String> getNothingProvider() throws InterruptedException {
+        // 模拟长时间请求
+        Thread.sleep(2000);
         return Result.success("操作成功" + port, "我是提供者");
     }
 

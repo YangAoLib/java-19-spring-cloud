@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="忽略文件更新">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatis-log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/proxy/ProviderFeignProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +39,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5e0a385f-d8cb-48cb-a17c-b8e7e79d43d1" />
+        <option name="url" value="git@github.com:YangAoLib/java-19-spring-cloud.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../../dev/Java/openjdk-8u392/src.zip!/java/util/Map.java" root0="FORCE_HIGHLIGHTING" />
@@ -95,6 +104,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
     "Maven.feign-02-consumer [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -106,9 +116,9 @@
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
     "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8090.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8091.executor": "JRebel Debug",
-    "Spring Boot.Feign02ConsumerApplication.executor": "JRebel Debug",
+    "Spring Boot.Feign01ProviderApplication-8090.executor": "JRebel Executor",
+    "Spring Boot.Feign01ProviderApplication-8091.executor": "JRebel Executor",
+    "Spring Boot.Feign02ConsumerApplication.executor": "JRebel Executor",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
@@ -116,7 +126,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/dev/JetBrainCrack/plugins/github-copilot-intellij-1.4.0.3748.zip",
+    "last_opened_file_path": "D:/project/open-source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,7 +136,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -167,7 +177,23 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka04RestTemplateApplication">
+  <component name="RunManager" selected="JUnit.ProviderFeignProxyTest.testInvoke">
+    <configuration name="ProviderFeignProxyTest.testInvoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="feign-02-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.feign.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yangao.feign.proxy" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.feign.proxy.ProviderFeignProxyTest" />
+      <option name="METHOD_NAME" value="testInvoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Eureka01EurekaServerAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="01eureka/集群/服务/多项目" nameIsGenerated="true">
       <module name="eureka-01-eureka-server-a" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Eureka01EurekaServerAApplication" />
@@ -364,6 +390,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.ProviderFeignProxyTest.testInvoke" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
@@ -388,6 +415,11 @@
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProviderFeignProxyTest.testInvoke" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -450,6 +482,8 @@
       <workItem from="1702891239444" duration="117000" />
       <workItem from="1702891676788" duration="331000" />
       <workItem from="1702892049108" duration="1760000" />
+      <workItem from="1702948827077" duration="2004000" />
+      <workItem from="1702956636786" duration="6012000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -579,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702890327744</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）">
+      <option name="closed" value="true" />
+      <created>1702952497915</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702952497915</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +652,8 @@
     <MESSAGE value="ribbon 可选配置与其默认值 添加" />
     <MESSAGE value="feign初步使用" />
     <MESSAGE value="忽略文件更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略文件更新" />
+    <MESSAGE value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
+    <option name="LAST_COMMIT_MESSAGE" value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

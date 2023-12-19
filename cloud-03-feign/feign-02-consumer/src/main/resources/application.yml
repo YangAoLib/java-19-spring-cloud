@@ -13,3 +13,9 @@ eureka:
   instance:
     hostname: localhost
     instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
+# 因为 feign 是使用 ribbon 来进行调用的, 所以要设置feign的超时时间, 就设置ribbon的超时时间（默认的超时时间为 1秒）
+ribbon:
+  # 请求超时时间 3s
+  ReadTimeout: 3000
+  # 连接超时时间 3s
+  ConnectTimeout: 3000
