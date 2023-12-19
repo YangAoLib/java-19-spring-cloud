@@ -4,36 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feign初步使用">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java/edu/yangao/entity/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java/edu/yangao/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-00-base/src/main/java/edu/yangao/enums/ResultStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="忽略文件更新">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/Feign01ProviderApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/test/java/edu/yangao/Feign01ProviderApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/Feign02ConsumerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer">
@@ -66,25 +53,31 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../../dev/Java/openjdk-8u392/src.zip!/java/util/Map.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../../../dev/Java/openjdk-8u392/src.zip!/java/util/TimerTask.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar!/com/netflix/util/concurrent/ShutdownEnabledTimer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-eureka/2.3.0/ribbon-eureka-2.3.0-sources.jar!/com/netflix/niws/loadbalancer/NIWSDiscoveryPing.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/IPing.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/IPingStrategy.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar!/com/netflix/util/concurrent/ShutdownEnabledTimer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.3.0/ribbon-eureka-2.3.0-sources.jar!/com/netflix/niws/loadbalancer/NIWSDiscoveryPing.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/IPing.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/IPingStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.15.RELEASE/spring-beans-5.2.15.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="nonRecursive" value="true" />
+        <option name="outputLevel" value="DEBUG" />
+        <option name="useMavenConfig" value="false" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -102,6 +95,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.feign-02-consumer [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -109,20 +103,30 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
+    "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
+    "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
+    "Spring Boot.Feign01ProviderApplication-8090.executor": "JRebel Debug",
+    "Spring Boot.Feign01ProviderApplication-8091.executor": "JRebel Debug",
+    "Spring Boot.Feign02ConsumerApplication.executor": "JRebel Debug",
+    "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
     "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-03-feign/feign-02-consumer/src/main/resources",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/dev/JetBrainCrack/plugins/github-copilot-intellij-1.4.0.3748.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.color",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -132,6 +136,7 @@
   }
 }]]></component>
   <component name="ReactorSettings">
+    <option name="debugInitializationType" value="NONE" />
     <option name="notificationShown" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -145,6 +150,8 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
@@ -382,7 +389,17 @@
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
     </list>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-3183f394aec4-cb300fc7" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\YangAo\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="" />
@@ -416,7 +433,23 @@
       <workItem from="1702862222882" duration="3542000" />
       <workItem from="1702866069778" duration="206000" />
       <workItem from="1702866283557" duration="20000" />
-      <workItem from="1702866333404" duration="3465000" />
+      <workItem from="1702866333404" duration="3980000" />
+      <workItem from="1702877138003" duration="7000" />
+      <workItem from="1702877176365" duration="156000" />
+      <workItem from="1702877393430" duration="235000" />
+      <workItem from="1702877816912" duration="808000" />
+      <workItem from="1702880585763" duration="2215000" />
+      <workItem from="1702886350644" duration="942000" />
+      <workItem from="1702887308020" duration="506000" />
+      <workItem from="1702889253305" duration="30000" />
+      <workItem from="1702889288905" duration="196000" />
+      <workItem from="1702889664078" duration="159000" />
+      <workItem from="1702889841576" duration="69000" />
+      <workItem from="1702889915216" duration="110000" />
+      <workItem from="1702890031390" duration="1195000" />
+      <workItem from="1702891239444" duration="117000" />
+      <workItem from="1702891676788" duration="331000" />
+      <workItem from="1702892049108" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -530,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702864738327</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feign初步使用">
+      <option name="closed" value="true" />
+      <created>1702876892264</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702876892264</updated>
+    </task>
+    <task id="LOCAL-00016" summary="忽略文件更新">
+      <option name="closed" value="true" />
+      <created>1702890327744</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702890327744</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,32 +609,11 @@
     <MESSAGE value="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法" />
     <MESSAGE value="ribbon 可选配置与其默认值 添加" />
     <MESSAGE value="feign初步使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign初步使用" />
+    <MESSAGE value="忽略文件更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略文件更新" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java</url>
-          <line>754</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java</url>
-          <line>185</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java</url>
-          <line>183</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../../dev/Maven/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.9.RELEASE/spring-cloud-netflix-ribbon-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.java</url>
-          <line>168</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

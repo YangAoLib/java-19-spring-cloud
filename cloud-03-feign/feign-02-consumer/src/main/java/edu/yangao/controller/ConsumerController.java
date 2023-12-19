@@ -7,6 +7,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
+
 @RestController
 @Slf4j
 public class ConsumerController {
@@ -50,6 +52,17 @@ public class ConsumerController {
         OrderInfo orderInfo = new OrderInfo();
         orderInfo.setOrderNumber("测试编号");
         return providerFeign.postJsonAndParamAndPathVariableProvider(orderInfo, "消费者测试名称", 15L);
+    }
+
+    /**
+     * get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）
+     */
+    @GetMapping("get-date")
+    public Result<Date> getDate() {
+        log.info("get 请求 传日期参数");
+        Date date = new Date();
+        log.info("date: {}", date);
+        return providerFeign.getDate(date);
     }
 
 }

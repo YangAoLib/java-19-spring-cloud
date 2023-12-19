@@ -2,12 +2,14 @@ package edu.yangao.controller;
 
 import edu.yangao.entity.OrderInfo;
 import edu.yangao.entity.Result;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
-import javax.ws.rs.POST;
+import java.util.Date;
 
 @RestController
+@Slf4j
 public class ProviderController {
 
     /**
@@ -53,6 +55,17 @@ public class ProviderController {
         orderInfo.setOrderName(orderName);
         orderInfo.setId(id);
         return Result.success("操作成功" + port, orderInfo);
+    }
+
+    /**
+     * get 请求 传日期参数
+     * @param date 日期
+     * @return 收到的日期
+     */
+    @GetMapping("get-date")
+    public Result<Date> getDate(@RequestParam("date") Date date) {
+        log.info("date: {}", date);
+        return Result.success("操作成功" + port, date);
     }
 
 }

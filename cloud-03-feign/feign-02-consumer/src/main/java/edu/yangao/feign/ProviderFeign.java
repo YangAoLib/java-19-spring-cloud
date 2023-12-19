@@ -5,6 +5,12 @@ import edu.yangao.entity.Result;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
+
+/**
+ * 使用 feign 需要在启动类上添加 @EnableFeignClients 开启 feign 功能
+ * 使用时, 先添加一个接口, 然后在接口上面使用 @FeignClient注解
+ */
 @FeignClient("feign-provider")
 public interface ProviderFeign {
 
@@ -37,4 +43,11 @@ public interface ProviderFeign {
     @PostMapping("json-and-param-and-path-variable-provider/{id}")
     Result<OrderInfo> postJsonAndParamAndPathVariableProvider(@RequestBody OrderInfo orderInfo, @RequestParam("order-name") String orderName, @PathVariable("id") Long id);
 
+    /**
+     * get 请求 传日期参数
+     * @param date 日期
+     * @return 收到的日期
+     */
+    @GetMapping("get-date")
+    Result<Date> getDate(@RequestParam("date") Date date);
 }
