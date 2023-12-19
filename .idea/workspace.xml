@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="简单手写 如何生成feign接口的代理对象">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式">
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/CglibFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/PropertyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallbackFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetFixedValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanLazyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/cglib/ProviderFeignCglibTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-01-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +111,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CglibFirstTest.testCglib.executor": "Run",
     "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
     "Maven.feign-02-consumer [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -116,9 +124,9 @@
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
     "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8090.executor": "Debug",
+    "Spring Boot.Feign01ProviderApplication-8090.executor": "JRebel Debug",
     "Spring Boot.Feign01ProviderApplication-8091.executor": "JRebel Executor",
-    "Spring Boot.Feign02ConsumerApplication.executor": "Debug",
+    "Spring Boot.Feign02ConsumerApplication.executor": "JRebel Debug",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
@@ -177,7 +185,39 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProviderFeignProxyTest.testInvoke">
+  <component name="RunManager" selected="JUnit.ProviderFeignCglibTest.testInvoke">
+    <configuration name="CglibFirstTest.testCglib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="feign-02-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yangao.cglib" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.cglib.CglibFirstTest" />
+      <option name="METHOD_NAME" value="testCglib" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderFeignCglibTest.testInvoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="feign-02-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.feign.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yangao.feign.cglib" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.feign.cglib.ProviderFeignCglibTest" />
+      <option name="METHOD_NAME" value="testInvoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderFeignProxyTest.testInvoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
@@ -390,6 +430,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.CglibFirstTest.testCglib" />
+      <item itemvalue="JUnit.ProviderFeignCglibTest.testInvoke" />
       <item itemvalue="JUnit.ProviderFeignProxyTest.testInvoke" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
@@ -417,6 +459,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProviderFeignCglibTest.testInvoke" />
+        <item itemvalue="JUnit.CglibFirstTest.testCglib" />
         <item itemvalue="JUnit.ProviderFeignProxyTest.testInvoke" />
       </list>
     </recent_temporary>
@@ -483,7 +527,7 @@
       <workItem from="1702891676788" duration="331000" />
       <workItem from="1702892049108" duration="1760000" />
       <workItem from="1702948827077" duration="2004000" />
-      <workItem from="1702956636786" duration="7844000" />
+      <workItem from="1702956636786" duration="18359000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -629,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702967578586</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式">
+      <option name="closed" value="true" />
+      <created>1702970407372</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702970407372</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +714,34 @@
     <MESSAGE value="忽略文件更新" />
     <MESSAGE value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
     <MESSAGE value="简单手写 如何生成feign接口的代理对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单手写 如何生成feign接口的代理对象" />
+    <MESSAGE value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/ReflectiveFeign.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.2.9.RELEASE/spring-cloud-openfeign-core-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.2.9.RELEASE/spring-cloud-openfeign-core-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/ReflectiveFeign.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
