@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="cglib 添加注释">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="cglib 依赖更新">
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/hutool/CryptoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/hutool/DateUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/hutool/TimeIntervalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/java/edu/yangao/Eureka01EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/java/edu/yangao/Eureka01EurekaServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/CglibFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/CglibFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallbackFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetCallbackFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetFixedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetFixedValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanLazyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/cglib/TargetPropertyBeanLazyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/cglib/ProviderFeignCglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/cglib/ProviderFeignCglibTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/proxy/ProviderFeignProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/proxy/ProviderFeignProxyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +52,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -118,8 +118,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
+    "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
+    "JUnit.CryptoTest.testSM4.executor": "Run",
+    "JUnit.DateUtilTest.testDateFormat.executor": "Run",
+    "JUnit.HutoolCryptoTest.testAes.executor": "Run",
     "JUnit.ProviderFeignCglibTest.testInvoke.executor": "Run",
     "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
+    "JUnit.TimeIntervalTest.testInterval.executor": "Run",
     "Maven.feign-02-consumer [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -141,7 +146,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/open-source",
+    "last_opened_file_path": "D:/project/isoft/rinbohai/ringbohai-mall-back",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,7 +156,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -192,18 +197,50 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProviderFeignCglibTest.testInvoke">
-    <configuration name="CglibFirstTest.testCglib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CryptoTest.testSM4">
+    <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.yangao.cglib.*" />
+          <option name="PATTERN" value="edu.yangao.hutool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.cglib" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.cglib.CglibFirstTest" />
-      <option name="METHOD_NAME" value="testCglib" />
+      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.CryptoTest" />
+      <option name="METHOD_NAME" value="testCustomizeAes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CryptoTest.testSM4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="feign-02-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.hutool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.CryptoTest" />
+      <option name="METHOD_NAME" value="testSM4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateUtilTest.testDateFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="feign-02-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.hutool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.DateUtilTest" />
+      <option name="METHOD_NAME" value="testDateFormat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,17 +262,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderFeignProxyTest.testInvoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeIntervalTest.testInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.yangao.feign.proxy.*" />
+          <option name="PATTERN" value="edu.yangao.hutool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.feign.proxy" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.feign.proxy.ProviderFeignProxyTest" />
-      <option name="METHOD_NAME" value="testInvoke" />
+      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.TimeIntervalTest" />
+      <option name="METHOD_NAME" value="testInterval" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -437,9 +474,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CglibFirstTest.testCglib" />
+      <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
+      <item itemvalue="JUnit.CryptoTest.testSM4" />
+      <item itemvalue="JUnit.DateUtilTest.testDateFormat" />
       <item itemvalue="JUnit.ProviderFeignCglibTest.testInvoke" />
-      <item itemvalue="JUnit.ProviderFeignProxyTest.testInvoke" />
+      <item itemvalue="JUnit.TimeIntervalTest.testInterval" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
@@ -466,9 +505,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CryptoTest.testSM4" />
+        <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
+        <item itemvalue="JUnit.DateUtilTest.testDateFormat" />
+        <item itemvalue="JUnit.TimeIntervalTest.testInterval" />
         <item itemvalue="JUnit.ProviderFeignCglibTest.testInvoke" />
-        <item itemvalue="JUnit.CglibFirstTest.testCglib" />
-        <item itemvalue="JUnit.ProviderFeignProxyTest.testInvoke" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +575,10 @@
       <workItem from="1702891676788" duration="331000" />
       <workItem from="1702892049108" duration="1760000" />
       <workItem from="1702948827077" duration="2004000" />
-      <workItem from="1702956636786" duration="19224000" />
+      <workItem from="1702956636786" duration="28025000" />
+      <workItem from="1703061313151" duration="1341000" />
+      <workItem from="1703063464824" duration="1182000" />
+      <workItem from="1703123123485" duration="11068000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -704,7 +748,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702987218821</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cglib 依赖更新">
+      <option name="closed" value="true" />
+      <created>1702987810786</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702987810786</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cglib 依赖更新">
+      <option name="closed" value="true" />
+      <created>1702987829106</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702987829106</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,7 +800,8 @@
     <MESSAGE value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
     <MESSAGE value="cglib 生成代理对象 请求feign" />
     <MESSAGE value="cglib 添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="cglib 添加注释" />
+    <MESSAGE value="cglib 依赖更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="cglib 依赖更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
