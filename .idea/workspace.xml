@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="cglib 依赖更新">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: feign 日志输出">
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/java/edu/yangao/Hystrix01RentCarProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/java/edu/yangao/controller/RentCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/test/java/edu/yangao/Hystrix01RentCarProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/Hystrix02RentCarConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/feign/RentCarFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/feign/hystrix/RentCarFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/test/java/edu/yangao/Hystrix02RentCarConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +151,9 @@
     "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
     "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
     "Spring Boot.Feign02ConsumerApplication.executor": "Run",
+    "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "JRebel Executor",
+    "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "JRebel Executor",
+    "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "JRebel Executor",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
@@ -155,7 +171,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "zielu.gittoolbox.app.config.v2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -401,6 +417,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Hystrix01RentCarProviderApplication-8090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/生产者(租车)">
+      <module name="hystrix-01-rent-car-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Hystrix01RentCarProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hystrix01RentCarProviderApplication-8091" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/生产者(租车)">
+      <module name="hystrix-01-rent-car-provider" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8091" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Hystrix01RentCarProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hystrix02RentCarConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/消费者" nameIsGenerated="true">
+      <module name="hystrix-02-rent-car-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Hystrix02RentCarConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -501,6 +539,9 @@
       <item itemvalue="Spring Boot.Feign02ConsumerApplication" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
+      <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8090" />
+      <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8091" />
+      <item itemvalue="Spring Boot.Hystrix02RentCarConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -584,6 +625,8 @@
       <workItem from="1703508245903" duration="3428000" />
       <workItem from="1703553181154" duration="271000" />
       <workItem from="1703553458751" duration="120000" />
+      <workItem from="1703553587084" duration="312000" />
+      <workItem from="1703553909667" duration="4759000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -769,7 +812,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702987829106</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: feign 日志输出">
+      <option name="closed" value="true" />
+      <created>1703553819644</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703553819644</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,7 +857,8 @@
     <MESSAGE value="cglib 生成代理对象 请求feign" />
     <MESSAGE value="cglib 添加注释" />
     <MESSAGE value="cglib 依赖更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="cglib 依赖更新" />
+    <MESSAGE value="feat: feign 日志输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: feign 日志输出" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

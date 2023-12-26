@@ -29,6 +29,9 @@
         <option value="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-03-feign/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-03-feign/feign-00-base/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-04-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
