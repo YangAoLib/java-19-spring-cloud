@@ -17,3 +17,8 @@ ribbon:
   ReadTimeout: 3000
   # 连接超时时间 3s
   ConnectTimeout: 3000
+
+logging:
+  level:
+    # 开启edu.yangao.feign下类的日志 等级为debug
+    edu.yangao.feign: debug

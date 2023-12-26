@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="cglib 依赖更新">
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/hutool/CryptoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/hutool/DateUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/hutool/TimeIntervalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/java/edu/yangao/Eureka01EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-01-eureka/eureka-01-eureka-server/src/main/java/edu/yangao/Eureka01EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/Feign02ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/feign/ProviderFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/cglib/ProviderFeignCglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/cglib/ProviderFeignCglibTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/proxy/ProviderFeignProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/test/java/edu/yangao/feign/proxy/ProviderFeignProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-03-feign/feign-02-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +50,9 @@
   &quot;lastFilter&quot;: {
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -121,9 +118,11 @@
     "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
     "JUnit.CryptoTest.testSM4.executor": "Run",
     "JUnit.DateUtilTest.testDateFormat.executor": "Run",
+    "JUnit.Feign02ConsumerApplicationTests.contextLoads.executor": "Run",
     "JUnit.HutoolCryptoTest.testAes.executor": "Run",
     "JUnit.ProviderFeignCglibTest.testInvoke.executor": "Run",
     "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
+    "JUnit.ProviderFeignProxyTest.testURI.executor": "Run",
     "JUnit.TimeIntervalTest.testInterval.executor": "Run",
     "Maven.feign-02-consumer [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -136,9 +135,9 @@
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
     "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8090.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8091.executor": "JRebel Executor",
-    "Spring Boot.Feign02ConsumerApplication.executor": "JRebel Debug",
+    "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
+    "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
+    "Spring Boot.Feign02ConsumerApplication.executor": "Run",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
@@ -156,7 +155,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "zielu.gittoolbox.app.config.v2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -197,7 +196,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CryptoTest.testSM4">
+  <component name="RunManager" selected="Spring Boot.Feign02ConsumerApplication">
     <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
@@ -246,33 +245,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderFeignCglibTest.testInvoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feign02ConsumerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.yangao.feign.cglib.*" />
+          <option name="PATTERN" value="edu.yangao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.feign.cglib" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.feign.cglib.ProviderFeignCglibTest" />
-      <option name="METHOD_NAME" value="testInvoke" />
+      <option name="PACKAGE_NAME" value="edu.yangao" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.Feign02ConsumerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeIntervalTest.testInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderFeignProxyTest.testURI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.yangao.hutool.*" />
+          <option name="PATTERN" value="edu.yangao.feign.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.TimeIntervalTest" />
-      <option name="METHOD_NAME" value="testInterval" />
+      <option name="PACKAGE_NAME" value="edu.yangao.feign.proxy" />
+      <option name="MAIN_CLASS_NAME" value="edu.yangao.feign.proxy.ProviderFeignProxyTest" />
+      <option name="METHOD_NAME" value="testURI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -474,11 +473,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.Feign02ConsumerApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
       <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
       <item itemvalue="JUnit.CryptoTest.testSM4" />
       <item itemvalue="JUnit.DateUtilTest.testDateFormat" />
-      <item itemvalue="JUnit.ProviderFeignCglibTest.testInvoke" />
-      <item itemvalue="JUnit.TimeIntervalTest.testInterval" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
@@ -505,11 +504,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Feign02ConsumerApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
         <item itemvalue="JUnit.CryptoTest.testSM4" />
         <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
         <item itemvalue="JUnit.DateUtilTest.testDateFormat" />
-        <item itemvalue="JUnit.TimeIntervalTest.testInterval" />
-        <item itemvalue="JUnit.ProviderFeignCglibTest.testInvoke" />
       </list>
     </recent_temporary>
   </component>
@@ -579,6 +578,12 @@
       <workItem from="1703061313151" duration="1341000" />
       <workItem from="1703063464824" duration="1182000" />
       <workItem from="1703123123485" duration="11068000" />
+      <workItem from="1703207161917" duration="3207000" />
+      <workItem from="1703214915074" duration="4913000" />
+      <workItem from="1703308001167" duration="3080000" />
+      <workItem from="1703508245903" duration="3428000" />
+      <workItem from="1703553181154" duration="271000" />
+      <workItem from="1703553458751" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -825,6 +830,11 @@
           <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/ReflectiveFeign.java</url>
           <line>99</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/SynchronousMethodHandler.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
