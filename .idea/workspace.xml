@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: hystrix 的配置与隔离方式的区别">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 手写hystrix模拟更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -623,7 +624,7 @@
       <workItem from="1703553587084" duration="312000" />
       <workItem from="1703553909667" duration="7865000" />
       <workItem from="1703585704028" duration="897000" />
-      <workItem from="1703639256644" duration="14510000" />
+      <workItem from="1703639256644" duration="15883000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -841,7 +842,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703665868859</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: 手写hystrix模拟更新">
+      <option name="closed" value="true" />
+      <created>1703666111378</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703666111378</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -883,7 +892,8 @@
     <MESSAGE value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
     <MESSAGE value="feat: 手写类似熔断器功能 使用aop针对方法进行熔断" />
     <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix 的配置与隔离方式的区别" />
+    <MESSAGE value="feat: 手写hystrix模拟更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 手写hystrix模拟更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
