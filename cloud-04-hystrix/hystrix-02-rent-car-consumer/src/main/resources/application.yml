@@ -16,3 +16,44 @@ feign:
   hystrix:
     # 开启hystrix熔断器
     enabled: true
+# hystrix 配置
+hystrix:
+  command:
+    # default 是全局控制
+    # 单个方法是将default换成对应方法名
+    default:
+      fallback:
+        isolation:
+          semaphore:
+            # 信号量隔离级别最大并发数
+            maxConcurrentRequests: 1000
+      circuitBreaker:
+        # 开启断路器
+        enabled: true
+        # 失败次数（阈值）
+        requestVolumnThreshold: 3
+        # 窗口时间
+        sleepWindowInMilliseconds: 20000
+        # 失败率
+        errorThresholdPercentage: 60
+      execution:
+        isolation:
+          # 隔离方式
+          # thread线程隔离、SEMAPHORE信号量隔离
+          #
+          # thread线程池 按照group（10个线程）划分服务提供者, 用户的请求的线程和做远程调用的线程不是同一个
+          # 好处: 当B服务调用失败了或者请求B服务的量太大了, 不会对其他服务造成影响, 用户访问比较大的情况下使用比较好（）
+          # 缺点: 线程间切换开销大, 对机器性能有影响
+          # 应用场景: 调用第三方服务, 并发量大的情况
+          #
+          # SEMAPHORE 信号量隔离 每次请求进来有个原子计数器 做请求的次数+1 请求完成以后再-1
+          # 好处: 对CPU开销小
+          # 缺点: 并发请求不易太多, 当请求过多, 就会拒绝请求, 形成保护机制
+          # 应用场景: 使用内部调用, 并发小的情况下
+          Strategy: thread
+          thread:
+            # 调用超时时长
+            timeoutInMilliseconds: 3000
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
