@@ -18,7 +18,7 @@ import java.util.Map;
 @Slf4j
 public class HedgehogAspect {
 
-    private static Map<String, HedgehogModel> serviceMap = new HashMap<>();
+    private static final Map<String, HedgehogModel> SERVICE_MAP = new HashMap<>();
 
     @Around("@annotation(edu.yangao.hedgehog.anno.Hedgehog)")
     public Object hedgehogAround(ProceedingJoinPoint joinPoint) throws Throwable {
@@ -29,7 +29,7 @@ public class HedgehogAspect {
         // 访问注解的属性
         String serviceName = hedgehog.serviceName();
         // 获取对应熔断器
-        HedgehogModel hedgehogModel = serviceMap.merge(serviceName, new HedgehogModel(), (oldValue, newValue) -> oldValue);
+        HedgehogModel hedgehogModel = SERVICE_MAP.merge(serviceName, new HedgehogModel(), (oldValue, newValue) -> oldValue);
         // 根据熔断器状态 进行操作
         switch (hedgehogModel.getStatus()) {
             case OPEN: // 熔断器开启

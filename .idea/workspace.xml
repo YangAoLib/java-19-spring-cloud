@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/Hystrix03HedgehogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/controller/HedgehogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/anno/Hedgehog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/anno/HedgehogStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/test/java/edu/yangao/Hystrix03HedgehogApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: hystrix 的配置与隔离方式的区别">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +139,7 @@
     "Spring Boot.Feign02ConsumerApplication.executor": "Run",
     "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
     "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
-    "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "JRebel Executor",
+    "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
     "Spring Boot.Hystrix03HedgehogApplication.executor": "JRebel Debug",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
@@ -170,7 +158,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.协议缓冲区文本",
+    "settings.editor.selected.configurable": "com.xxxtai.smartinput",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -438,7 +426,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hystrix03HedgehogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Hystrix03HedgehogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/消费者/手写模拟熔断" nameIsGenerated="true">
       <module name="hystrix-03-hedgehog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Hystrix03HedgehogApplication" />
       <method v="2">
@@ -635,7 +623,7 @@
       <workItem from="1703553587084" duration="312000" />
       <workItem from="1703553909667" duration="7865000" />
       <workItem from="1703585704028" duration="897000" />
-      <workItem from="1703639256644" duration="12060000" />
+      <workItem from="1703639256644" duration="14510000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -837,7 +825,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703572332805</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: 手写类似熔断器功能 使用aop针对方法进行熔断">
+      <option name="closed" value="true" />
+      <created>1703663730747</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703663730747</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: hystrix 的配置与隔离方式的区别">
+      <option name="closed" value="true" />
+      <created>1703665868859</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1703665868859</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -877,7 +881,9 @@
     <MESSAGE value="cglib 依赖更新" />
     <MESSAGE value="feat: feign 日志输出" />
     <MESSAGE value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
+    <MESSAGE value="feat: 手写类似熔断器功能 使用aop针对方法进行熔断" />
+    <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix 的配置与隔离方式的区别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -906,11 +912,6 @@
           <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/SynchronousMethodHandler.java</url>
           <line>83</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
