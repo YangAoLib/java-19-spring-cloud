@@ -31,6 +31,7 @@
     <file url="file://$PROJECT_DIR$/cloud-03-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-04-hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-04-hystrix/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

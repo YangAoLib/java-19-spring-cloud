@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: feign 日志输出">
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/java/edu/yangao/Hystrix01RentCarProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/java/edu/yangao/controller/RentCarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-01-rent-car-provider/src/test/java/edu/yangao/Hystrix01RentCarProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/Hystrix02RentCarConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/feign/RentCarFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/java/edu/yangao/feign/hystrix/RentCarFeignHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/test/java/edu/yangao/Hystrix02RentCarConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/Hystrix03HedgehogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/controller/HedgehogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/anno/Hedgehog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/anno/HedgehogStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/test/java/edu/yangao/Hystrix03HedgehogApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -52,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -127,6 +124,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
     "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
     "JUnit.CryptoTest.testSM4.executor": "Run",
@@ -151,9 +149,10 @@
     "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
     "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
     "Spring Boot.Feign02ConsumerApplication.executor": "Run",
-    "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "JRebel Executor",
-    "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "JRebel Executor",
+    "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
+    "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "JRebel Executor",
+    "Spring Boot.Hystrix03HedgehogApplication.executor": "JRebel Debug",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
@@ -171,7 +170,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.协议缓冲区文本",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -212,7 +211,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Feign02ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.Hystrix03HedgehogApplication">
     <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
@@ -439,6 +438,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Hystrix03HedgehogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hystrix-03-hedgehog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Hystrix03HedgehogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -539,9 +545,10 @@
       <item itemvalue="Spring Boot.Feign02ConsumerApplication" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
+      <item itemvalue="Spring Boot.Hystrix02RentCarConsumerApplication" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8090" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8091" />
-      <item itemvalue="Spring Boot.Hystrix02RentCarConsumerApplication" />
+      <item itemvalue="Spring Boot.Hystrix03HedgehogApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -626,7 +633,9 @@
       <workItem from="1703553181154" duration="271000" />
       <workItem from="1703553458751" duration="120000" />
       <workItem from="1703553587084" duration="312000" />
-      <workItem from="1703553909667" duration="4759000" />
+      <workItem from="1703553909667" duration="7865000" />
+      <workItem from="1703585704028" duration="897000" />
+      <workItem from="1703639256644" duration="12060000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -820,7 +829,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703553819644</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）">
+      <option name="closed" value="true" />
+      <created>1703572332805</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703572332805</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -838,6 +855,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="更新忽略文件" />
     <MESSAGE value="更新idea配置" />
     <MESSAGE value="eureka docker镜像添加是否注册自身配置" />
@@ -858,7 +876,8 @@
     <MESSAGE value="cglib 添加注释" />
     <MESSAGE value="cglib 依赖更新" />
     <MESSAGE value="feat: feign 日志输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: feign 日志输出" />
+    <MESSAGE value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,6 +906,21 @@
           <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/SynchronousMethodHandler.java</url>
           <line>83</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
