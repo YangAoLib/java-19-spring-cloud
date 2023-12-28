@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 手写hystrix模拟更新">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: hystrix配置注释更新">
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-api/src/main/java/edu/yangao/feign/OrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-api/src/main/java/edu/yangao/feign/hystrix/OrderFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-entity/src/main/java/edu/yangao/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/java/edu/yangao/ServiceOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/java/edu/yangao/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/java/edu/yangao/ServiceUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/java/edu/yangao/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-02-rent-car-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,13 +159,15 @@
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
     "Spring Boot.Hystrix03HedgehogApplication.executor": "JRebel Debug",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
+    "Spring Boot.ServiceOrderApplication.executor": "JRebel Executor",
+    "Spring Boot.ServiceUserApplication.executor": "JRebel Executor",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
     "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/isoft/rinbohai/ringbohai-mall-back",
+    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -159,7 +177,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "com.xxxtai.smartinput",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -176,7 +194,11 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.yangao.feign.hystrix" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\service-user\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-03-feign\feign-02-consumer\src\main\resources" />
     </key>
   </component>
@@ -200,7 +222,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Hystrix03HedgehogApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceUserApplication">
     <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
@@ -499,6 +521,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/feign-project">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.ServiceOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/feign-project">
+      <module name="service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.ServiceUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
       <deployment type="docker-image">
         <settings />
@@ -535,9 +571,11 @@
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
       <item itemvalue="Spring Boot.Hystrix02RentCarConsumerApplication" />
+      <item itemvalue="Spring Boot.Hystrix03HedgehogApplication" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8090" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8091" />
-      <item itemvalue="Spring Boot.Hystrix03HedgehogApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.ServiceUserApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -624,7 +662,9 @@
       <workItem from="1703553587084" duration="312000" />
       <workItem from="1703553909667" duration="7865000" />
       <workItem from="1703585704028" duration="897000" />
-      <workItem from="1703639256644" duration="15883000" />
+      <workItem from="1703639256644" duration="16116000" />
+      <workItem from="1703668847282" duration="2507000" />
+      <workItem from="1703725993166" duration="6548000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -850,7 +890,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703666111378</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: hystrix配置注释更新">
+      <option name="closed" value="true" />
+      <created>1703668247363</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703668247363</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: hystrix配置注释更新">
+      <option name="closed" value="true" />
+      <created>1703668939423</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703668939423</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -893,7 +949,8 @@
     <MESSAGE value="feat: 手写类似熔断器功能 使用aop针对方法进行熔断" />
     <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
     <MESSAGE value="feat: 手写hystrix模拟更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 手写hystrix模拟更新" />
+    <MESSAGE value="feat: hystrix配置注释更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix配置注释更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
