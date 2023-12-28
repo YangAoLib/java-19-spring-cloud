@@ -35,6 +35,9 @@
         <option value="$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-05-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
