@@ -19,6 +19,7 @@
         <module>common-api</module>
         <module>service-user</module>
         <module>service-order</module>
+        <module>admin-server</module>
     </modules>
 
     <properties>

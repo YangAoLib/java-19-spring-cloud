@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: hystrix配置注释更新">
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-api/src/main/java/edu/yangao/feign/OrderFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-api/src/main/java/edu/yangao/feign/hystrix/OrderFeignHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/common-entity/src/main/java/edu/yangao/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/java/edu/yangao/ServiceOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/java/edu/yangao/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/java/edu/yangao/ServiceUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/java/edu/yangao/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: feign cloud项目结构">
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/admin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/java/edu/yangao/AdminServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +122,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP 请求.ServiceOrderApplication | #1.executor": "Run",
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
     "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
     "JUnit.CryptoTest.testSM4.executor": "Run",
@@ -148,6 +141,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AdminServerApplication.executor": "Run",
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
     "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
@@ -159,8 +153,8 @@
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
     "Spring Boot.Hystrix03HedgehogApplication.executor": "JRebel Debug",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
-    "Spring Boot.ServiceOrderApplication.executor": "JRebel Executor",
-    "Spring Boot.ServiceUserApplication.executor": "JRebel Executor",
+    "Spring Boot.ServiceOrderApplication.executor": "Run",
+    "Spring Boot.ServiceUserApplication.executor": "Run",
     "StatusDashboardGroupingRule": "false",
     "WebServerToolWindowFactoryState": "false",
     "android.gradle.sync.needed": "true",
@@ -177,7 +171,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -222,7 +216,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceUserApplication">
+  <component name="RunManager" selected="Spring Boot.AdminServerApplication">
     <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
@@ -250,22 +244,6 @@
       <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
       <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.CryptoTest" />
       <option name="METHOD_NAME" value="testSM4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateUtilTest.testDateFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="feign-02-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.yangao.hutool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.DateUtilTest" />
-      <option name="METHOD_NAME" value="testDateFormat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,6 +277,13 @@
       <option name="MAIN_CLASS_NAME" value="edu.yangao.feign.proxy.ProviderFeignProxyTest" />
       <option name="METHOD_NAME" value="testURI" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/feign-project">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.AdminServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -546,7 +531,6 @@
       <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
       <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
       <item itemvalue="JUnit.CryptoTest.testSM4" />
-      <item itemvalue="JUnit.DateUtilTest.testDateFormat" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
@@ -570,12 +554,13 @@
       <item itemvalue="Spring Boot.Feign02ConsumerApplication" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.ServiceUserApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
       <item itemvalue="Spring Boot.Hystrix02RentCarConsumerApplication" />
       <item itemvalue="Spring Boot.Hystrix03HedgehogApplication" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8090" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8091" />
-      <item itemvalue="Spring Boot.ServiceOrderApplication" />
-      <item itemvalue="Spring Boot.ServiceUserApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -583,14 +568,14 @@
         <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
         <item itemvalue="JUnit.CryptoTest.testSM4" />
         <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
-        <item itemvalue="JUnit.DateUtilTest.testDateFormat" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_392-corretto-1.8.0_392-3183f394aec4-cb300fc7" />
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
   </component>
@@ -664,7 +649,11 @@
       <workItem from="1703585704028" duration="897000" />
       <workItem from="1703639256644" duration="16116000" />
       <workItem from="1703668847282" duration="2507000" />
-      <workItem from="1703725993166" duration="6548000" />
+      <workItem from="1703725993166" duration="10665000" />
+      <workItem from="1703744188529" duration="17000" />
+      <workItem from="1703744215151" duration="22000" />
+      <workItem from="1703744243394" duration="1429000" />
+      <workItem from="1703745681130" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -906,7 +895,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703668939423</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat: feign cloud项目结构">
+      <option name="closed" value="true" />
+      <created>1703733943283</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1703733943283</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -925,7 +922,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="更新忽略文件" />
     <MESSAGE value="更新idea配置" />
     <MESSAGE value="eureka docker镜像添加是否注册自身配置" />
     <MESSAGE value="添加hostname" />
@@ -950,7 +946,8 @@
     <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
     <MESSAGE value="feat: 手写hystrix模拟更新" />
     <MESSAGE value="feat: hystrix配置注释更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: hystrix配置注释更新" />
+    <MESSAGE value="feat: feign cloud项目结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: feign cloud项目结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

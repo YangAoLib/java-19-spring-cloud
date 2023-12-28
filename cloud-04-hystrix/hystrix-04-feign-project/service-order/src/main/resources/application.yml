@@ -3,6 +3,14 @@ server:
 spring:
   application:
     name: hystrix-feign-project-service-order
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 为了使用速率限制采样器, 选择每秒间隔接受的trace量, 最小为0, 最大为2,147,483,647（最大int）默认为10
+      rate: 10
+      # 配置采样率 0-1 默认为0.1代表10%
+      probability: 1
 eureka:
   client:
     service-url:
@@ -14,3 +22,9 @@ eureka:
 feign:
   hystrix:
     enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        # 暴露所有的监控端点 默认暴露 health, info
+        include: '*'
