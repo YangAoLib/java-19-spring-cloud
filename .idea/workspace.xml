@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 链路追踪 服务监控">
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/test/java/edu/yangao/Gateway01GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/Gateway02LoginServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/test/java/edu/yangao/Gateway02LoginServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: gateway 集群">
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application-81.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application-82.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,69 +118,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "HTTP 请求.ServiceOrderApplication | #1.executor": "Run",
-    "JUnit.CglibFirstTest.testCglib.executor": "Run",
-    "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
-    "JUnit.CryptoTest.testSM4.executor": "Run",
-    "JUnit.DateUtilTest.testDateFormat.executor": "Run",
-    "JUnit.Feign02ConsumerApplicationTests.contextLoads.executor": "Run",
-    "JUnit.HutoolCryptoTest.testAes.executor": "Run",
-    "JUnit.ProviderFeignCglibTest.testInvoke.executor": "Run",
-    "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
-    "JUnit.ProviderFeignProxyTest.testURI.executor": "Run",
-    "JUnit.TimeIntervalTest.testInterval.executor": "Run",
-    "Maven.feign-02-consumer [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AdminServerApplication.executor": "Run",
-    "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
-    "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
-    "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
-    "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
-    "Spring Boot.Feign02ConsumerApplication.executor": "Run",
-    "Spring Boot.Gateway01GatewayApplication.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication.executor": "JRebel Executor",
-    "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
-    "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
-    "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
-    "Spring Boot.Hystrix03HedgehogApplication.executor": "Run",
-    "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
-    "Spring Boot.ServiceOrderApplication.executor": "Run",
-    "Spring Boot.ServiceUserApplication.executor": "Run",
-    "StatusDashboardGroupingRule": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-04-hystrix/hystrix-04-feign-project/service-user/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31300348",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP 请求.ServiceOrderApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CglibFirstTest.testCglib.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CryptoTest.testCustomizeAes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CryptoTest.testSM4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DateUtilTest.testDateFormat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Feign02ConsumerApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HutoolCryptoTest.testAes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProviderFeignCglibTest.testInvoke.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProviderFeignProxyTest.testInvoke.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProviderFeignProxyTest.testURI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeIntervalTest.testInterval.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.feign-02-consumer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdminServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Eureka01EurekaServerDockerApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.Eureka02EurekaClient-A-Application.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.Eureka04RestTemplateApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.Feign01ProviderApplication-8090.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Feign01ProviderApplication-8091.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Feign02ConsumerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication-81.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication-82.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway02LoginServerApplication-8080.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Gateway02LoginServerApplication-8081.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Gateway02LoginServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix01RentCarProviderApplication-8090.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix01RentCarProviderApplication-8091.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix02RentCarConsumerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix03HedgehogApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Ribbon02ConsumerApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.ServiceOrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceUserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;StatusDashboardGroupingRule&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-05-gateway/gateway-01-gateway/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31300348&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="debugInitializationType" value="NONE" />
     <option name="notificationShown" value="true" />
@@ -197,6 +197,7 @@
       <recent name="edu.yangao.feign.hystrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-01-gateway\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\service-user\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-03-feign\feign-02-consumer\src\main\resources" />
     </key>
@@ -221,7 +222,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminServerApplication">
+  <component name="RunManager" selected="Spring Boot.Gateway02LoginServerApplication-8080">
     <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
       <extension name="coverage">
@@ -417,7 +418,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gateway01GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Gateway01GatewayApplication-80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="05gateway/gateway">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <module name="gateway-01-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Gateway01GatewayApplication" />
@@ -425,9 +426,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gateway02LoginServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Gateway01GatewayApplication-81" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="05gateway/gateway">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="gateway-01-gateway" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=81 --spring.profiles.active=81" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Gateway01GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway01GatewayApplication-82" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="05gateway/gateway">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="gateway-01-gateway" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=82 --spring.profiles.active=82" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Gateway01GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway02LoginServerApplication-8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="05gateway/service">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <module name="gateway-02-login-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Gateway02LoginServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway02LoginServerApplication-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="05gateway/service">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="gateway-02-login-server" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8081" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Gateway02LoginServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -583,8 +611,11 @@
       <item itemvalue="Spring Boot.Hystrix03HedgehogApplication" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8090" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8091" />
-      <item itemvalue="Spring Boot.Gateway01GatewayApplication" />
-      <item itemvalue="Spring Boot.Gateway02LoginServerApplication" />
+      <item itemvalue="Spring Boot.Gateway01GatewayApplication-80" />
+      <item itemvalue="Spring Boot.Gateway01GatewayApplication-81" />
+      <item itemvalue="Spring Boot.Gateway01GatewayApplication-82" />
+      <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8081" />
+      <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8080" />
     </list>
     <recent_temporary>
       <list>
@@ -678,7 +709,13 @@
       <workItem from="1703744215151" duration="22000" />
       <workItem from="1703744243394" duration="1429000" />
       <workItem from="1703745681130" duration="6646000" />
-      <workItem from="1703756136122" duration="235000" />
+      <workItem from="1703756136122" duration="1470000" />
+      <workItem from="1703812398271" duration="4178000" />
+      <workItem from="1703817496810" duration="899000" />
+      <workItem from="1703818644209" duration="427000" />
+      <workItem from="1703831639288" duration="752000" />
+      <workItem from="1703834116412" duration="1056000" />
+      <workItem from="1703836089411" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -936,7 +973,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703747049273</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: gateway初步使用">
+      <option name="closed" value="true" />
+      <created>1703756393302</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703756393302</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,7 +1000,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="eureka docker镜像添加是否注册自身配置" />
     <MESSAGE value="添加hostname" />
     <MESSAGE value="更改default-zone→defaultZone 如果使用default-zone无法被正确识别" />
     <MESSAGE value="单体eureka不进行自身注册" />
@@ -980,7 +1024,8 @@
     <MESSAGE value="feat: hystrix配置注释更新" />
     <MESSAGE value="feat: feign cloud项目结构" />
     <MESSAGE value="feat: 链路追踪 服务监控" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 链路追踪 服务监控" />
+    <MESSAGE value="feat: gateway初步使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: gateway初步使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

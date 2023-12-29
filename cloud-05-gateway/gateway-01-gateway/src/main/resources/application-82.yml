@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 82
 spring:
   application:
     name: gateway-server
@@ -12,7 +12,7 @@ spring:
             - Path=/login
       discovery:
         locator:
-          # 开启动态路由
-          enabled: true
+          # 关闭动态路由（测试网关集群）
+          enabled: false
           # 服务名使用小写
           lower-case-service-id: true
