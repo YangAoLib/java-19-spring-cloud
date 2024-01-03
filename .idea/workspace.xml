@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: gateway nginx 集群">
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: gateway 路由断言配置">
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/test/java/edu/yangao/Gateway01GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/test/java/edu/yangao/Gateway01GatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
     "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
     "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
     "Spring Boot.Feign02ConsumerApplication.executor": "Run",
-    "Spring Boot.Gateway01GatewayApplication-80.executor": "Run",
+    "Spring Boot.Gateway01GatewayApplication-80.executor": "Debug",
     "Spring Boot.Gateway01GatewayApplication-81.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication-82.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication.executor": "JRebel Executor",
@@ -735,7 +733,7 @@
       <workItem from="1703843388500" duration="911000" />
       <workItem from="1704034617128" duration="623000" />
       <workItem from="1704117955145" duration="1708000" />
-      <workItem from="1704243911502" duration="5830000" />
+      <workItem from="1704243911502" duration="10985000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -1009,7 +1007,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703836134560</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feat: gateway 路由断言配置">
+      <option name="closed" value="true" />
+      <created>1704252483636</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1704252483636</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1028,7 +1034,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="更改default-zone→defaultZone 如果使用default-zone无法被正确识别" />
     <MESSAGE value="单体eureka不进行自身注册" />
     <MESSAGE value="包名修改" />
     <MESSAGE value="客户端A http 请求调用客户端B" />
@@ -1053,7 +1058,8 @@
     <MESSAGE value="feat: 链路追踪 服务监控" />
     <MESSAGE value="feat: gateway初步使用" />
     <MESSAGE value="feat: gateway nginx 集群" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: gateway nginx 集群" />
+    <MESSAGE value="feat: gateway 路由断言配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: gateway 路由断言配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1092,6 +1098,16 @@
           <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
           <line>36</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
