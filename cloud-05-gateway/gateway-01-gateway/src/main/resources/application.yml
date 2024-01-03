@@ -10,6 +10,19 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/login
+            # 请求时间的要求
+#            - After=2024-01-03T10:56:34.276+08:00[Asia/Shanghai]
+#            - After=2024-01-03T11:56:34.276+08:00
+#            - Before=2024-01-03T11:56:34.276+08:00
+#            - Before=2024-01-03T10:56:34.276+08:00
+#            - Between=2024-01-03T10:56:34.276+08:00, 2024-01-03T11:56:34.276+08:00
+#            - Between=2024-01-03T11:56:34.276+08:00, 2024-01-03T12:56:34.276+08:00
+            # 对应的请求方式
+#            - Method=GET,POST
+#            - Method=post
+            # 查询条件断言 必须要有的参数, 参数对应的正则(可选)
+#            - Query=name, ^1[3-9]\d+$
+            # Cookie、Header、Host等断言 {@link https://docs.spring.io/spring-cloud-gateway/docs/2.2.5.RELEASE/reference/html/#gateway-request-predicates-factories}
       discovery:
         locator:
           # 开启动态路由
