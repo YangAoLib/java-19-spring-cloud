@@ -3,3 +3,5 @@ server:
 spring:
   application:
     name: login-server
+  redis:
+    password: nswdfq

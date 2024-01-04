@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/cloud-05-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

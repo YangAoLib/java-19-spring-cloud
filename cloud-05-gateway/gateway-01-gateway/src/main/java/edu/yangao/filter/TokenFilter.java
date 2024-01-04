@@ -7,33 +7,59 @@ import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
 import org.springframework.core.io.buffer.DataBuffer;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.http.server.reactive.ServerHttpResponse;
+import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
- * 只能通过实现{@link Ordered}接口的方式来进行执行顺序的定义
+ * token校验
  */
-// @Component
-public class GatewayGlobalFilter implements GlobalFilter, Ordered {
+@Component
+public class TokenFilter implements GlobalFilter, Ordered {
 
     @Autowired
     private ObjectMapper objectMapper;
 
+    @Autowired
+    private StringRedisTemplate redisTemplate;
+
+    public static final List<String> WHITE_LIST = Arrays.asList("/login-server/login");
+
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-        // 获取请求信息
         ServerHttpRequest request = exchange.getRequest();
-        System.out.println(request.getPath());
-        System.out.println(request.getHeaders());
-        System.out.println(request.getRemoteAddress().getHostName());
-        System.out.println(request.getQueryParams());
-
+        // 判断是否需要直接放行
+        String path = request.getPath().value();
+        // 在白名单中直接放行
+        if (WHITE_LIST.contains(path)) {
+            return chain.filter(exchange);
+        }
+        // 判断是否有token
+        List<String> authorization = request.getHeaders().get("Authorization");
+        // 如果有并且在redis中有对应的数据 则放行
+        if (!CollectionUtils.isEmpty(authorization)) {
+            String token = authorization.get(0);
+            if (token != null && !token.isEmpty()) {
+                if (token.startsWith("bearer ")) {
+                    token = token.replace("bearer ", "");
+                }
+                // 判断其是否在redis中
+                if (Boolean.TRUE.equals(redisTemplate.hasKey(token))) {
+                    return chain.filter(exchange);
+                }
+            }
+        }
+        // 其他情况进行拦截
         ServerHttpResponse response = exchange.getResponse();
         // 拦截请求 返回错误信息
         Map<String, Object> map = new HashMap<>();
@@ -49,8 +75,6 @@ public class GatewayGlobalFilter implements GlobalFilter, Ordered {
         // 设置编码
         response.getHeaders().add("content-type", "application/json;charset=utf8");
         return response.writeWith(Mono.just(wrap));
-        // 放行
-        // return chain.filter(exchange);
     }
 
     @Override

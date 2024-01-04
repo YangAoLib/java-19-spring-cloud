@@ -29,3 +29,5 @@ spring:
           enabled: true
           # 服务名使用小写
           lower-case-service-id: true
+  redis:
+    password: nswdfq

@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="arst: test">
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/IPCheckFilter.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="fix: 警告消除">
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/main/java/edu/yangao/Gateway03TestAuthServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/main/java/edu/yangao/controller/TestAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/test/java/edu/yangao/Gateway03TestAuthServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/resources/application.yml" afterDir="false" />
     </list>
-    <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="" />
+    <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +134,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Docker.PandoraNext.executor": "Run",
     "HTTP 请求.ServiceOrderApplication | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #2.executor": "Run",
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
     "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
     "JUnit.CryptoTest.testSM4.executor": "Run",
@@ -148,9 +166,10 @@
     "Spring Boot.Gateway01GatewayApplication-81.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication-82.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication-8080.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication-8081.executor": "JRebel Executor",
+    "Spring Boot.Gateway02LoginServerApplication-8080.executor": "JRebel Debug",
+    "Spring Boot.Gateway02LoginServerApplication-8081.executor": "JRebel Debug",
     "Spring Boot.Gateway02LoginServerApplication.executor": "Run",
+    "Spring Boot.Gateway03TestAuthServerApplication.executor": "JRebel Debug",
     "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
     "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
@@ -164,7 +183,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-05-gateway/gateway-01-gateway/src/main/resources",
+    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-05-gateway/gateway-03-test-auth-server/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -196,6 +215,7 @@
       <recent name="edu.yangao.feign.hystrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-03-test-auth-server\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-01-gateway\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\service-user\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-03-feign\feign-02-consumer\src\main\resources" />
@@ -223,37 +243,11 @@
     </option>
   </component>
   <component name="RunManager" selected="Docker.PandoraNext">
-    <configuration name="CryptoTest.testCustomizeAes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="feign-02-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.yangao.hutool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.CryptoTest" />
-      <option name="METHOD_NAME" value="testCustomizeAes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
     </configuration>
-    <configuration name="CryptoTest.testSM4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="feign-02-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.yangao.hutool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao.hutool" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.hutool.CryptoTest" />
-      <option name="METHOD_NAME" value="testSM4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="运行单个请求">
+      <method v="2" />
     </configuration>
     <configuration name="Feign02ConsumerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
@@ -477,6 +471,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Gateway03TestAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="05gateway/service" nameIsGenerated="true">
+      <module name="gateway-03-test-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Gateway03TestAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hystrix01RentCarProviderApplication-8090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/生产者(租车)">
       <module name="hystrix-01-rent-car-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Hystrix01RentCarProviderApplication" />
@@ -633,11 +634,11 @@
     </configuration>
     <list>
       <item itemvalue="Docker.PandoraNext" />
+      <item itemvalue="HTTP 请求.generated-requests | #1" />
+      <item itemvalue="HTTP 请求.generated-requests | #2" />
       <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
       <item itemvalue="JUnit.Feign02ConsumerApplicationTests.contextLoads" />
       <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
-      <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
-      <item itemvalue="JUnit.CryptoTest.testSM4" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
@@ -671,16 +672,17 @@
       <item itemvalue="Spring Boot.Gateway01GatewayApplication-80" />
       <item itemvalue="Spring Boot.Gateway01GatewayApplication-81-service8080" />
       <item itemvalue="Spring Boot.Gateway01GatewayApplication-82-service8081" />
+      <item itemvalue="Spring Boot.Gateway03TestAuthServerApplication" />
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8081" />
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8080" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 请求.generated-requests | #1" />
+        <item itemvalue="HTTP 请求.generated-requests | #2" />
         <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
         <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
         <item itemvalue="JUnit.Feign02ConsumerApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.CryptoTest.testSM4" />
-        <item itemvalue="JUnit.CryptoTest.testCustomizeAes" />
       </list>
     </recent_temporary>
   </component>
@@ -781,7 +783,7 @@
       <workItem from="1704243911502" duration="16876000" />
       <workItem from="1704330209738" duration="3262000" />
       <workItem from="1704354480234" duration="1350000" />
-      <workItem from="1704356005026" duration="884000" />
+      <workItem from="1704356005026" duration="4455000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -1103,7 +1105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704356068422</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="feat: 通过过滤器实现IP黑名单拦截">
+      <option name="closed" value="true" />
+      <created>1704357111895</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1704357111895</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix: 警告消除">
+      <option name="closed" value="true" />
+      <created>1704357143846</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1704357143846</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1122,8 +1140,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ribbon 可选配置与其默认值 添加" />
-    <MESSAGE value="feign初步使用" />
     <MESSAGE value="忽略文件更新" />
     <MESSAGE value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
     <MESSAGE value="简单手写 如何生成feign接口的代理对象" />
@@ -1147,7 +1163,9 @@
     <MESSAGE value="feat: 修改全局过滤器优先级" />
     <MESSAGE value="arst: 测试" />
     <MESSAGE value="arst: test" />
-    <option name="LAST_COMMIT_MESSAGE" value="arst: test" />
+    <MESSAGE value="feat: 通过过滤器实现IP黑名单拦截" />
+    <MESSAGE value="fix: 警告消除" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 警告消除" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
