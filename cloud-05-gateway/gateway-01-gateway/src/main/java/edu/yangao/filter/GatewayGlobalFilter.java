@@ -17,6 +17,9 @@ import reactor.core.publisher.Mono;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 只能通过实现{@link Ordered}接口的方式来进行执行顺序的定义
+ */
 @Component
 public class GatewayGlobalFilter implements GlobalFilter, Ordered {
 
