@@ -15,6 +15,7 @@ import reactor.core.publisher.Mono;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * ip 校验 过滤器 （先于全局过滤器执行）
@@ -30,7 +31,7 @@ public class IPCheckFilter implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         // 获取ip
-        String ip = exchange.getRequest().getRemoteAddress().getHostName();
+        String ip = Objects.requireNonNull(exchange.getRequest().getRemoteAddress()).getHostName();
         // 如果不在黑名单中则放行
         if (!BLACK_LIST.contains(ip)) {
             return chain.filter(exchange);
