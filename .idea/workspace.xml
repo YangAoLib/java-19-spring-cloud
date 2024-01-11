@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 更新忽略文件">
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 网关跨域配置" />
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -782,7 +778,7 @@
       <workItem from="1704867926569" duration="611000" />
       <workItem from="1704874499364" duration="681000" />
       <workItem from="1704934928308" duration="2812000" />
-      <workItem from="1704943827310" duration="6361000" />
+      <workItem from="1704943827310" duration="7142000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -1160,7 +1156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704953064285</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="feat: 网关跨域配置">
+      <option name="closed" value="true" />
+      <created>1704954323772</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1704954323772</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: 网关跨域配置">
+      <option name="closed" value="true" />
+      <created>1704954470444</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1704954470444</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1179,7 +1191,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="cglib 生成代理对象 请求feign" />
     <MESSAGE value="cglib 添加注释" />
     <MESSAGE value="cglib 依赖更新" />
     <MESSAGE value="feat: feign 日志输出" />
@@ -1204,7 +1215,8 @@
     <MESSAGE value="fix: 全局过滤器顺序调整到自定义的过滤器的最后" />
     <MESSAGE value="feat: 网关针对路由进行限流操作" />
     <MESSAGE value="chore: 更新忽略文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: 更新忽略文件" />
+    <MESSAGE value="feat: 网关跨域配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 网关跨域配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
