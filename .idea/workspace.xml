@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="fix: 全局过滤器顺序调整到自定义的过滤器的最后">
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/config/RequestRateLimiterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/config/RouteConfig.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 更新忽略文件">
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/TokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
-    <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-    </list>
+    <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +123,7 @@
     "HTTP 请求.generated-requests | #2.executor": "Run",
     "HTTP 请求.generated-requests | direct login.executor": "Run",
     "HTTP 请求.generated-requests | login.executor": "Run",
+    "HTTP 请求.generated-requests | test-auth.executor": "Run",
     "JAR 应用程序.zipkin-链路追踪.executor": "JRebel Executor",
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
     "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
@@ -148,7 +143,6 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AdminServerApplication.executor": "Run",
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
@@ -788,7 +782,7 @@
       <workItem from="1704867926569" duration="611000" />
       <workItem from="1704874499364" duration="681000" />
       <workItem from="1704934928308" duration="2812000" />
-      <workItem from="1704943827310" duration="4591000" />
+      <workItem from="1704943827310" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -1142,7 +1136,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704362037813</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="feat: 网关针对路由进行限流操作">
+      <option name="closed" value="true" />
+      <created>1704952776721</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1704952776721</updated>
+    </task>
+    <task id="LOCAL-00046" summary="chore: 更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1704952983066</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1704952983066</updated>
+    </task>
+    <task id="LOCAL-00047" summary="chore: 更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1704953064285</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1704953064285</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1161,8 +1179,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="简单手写 如何生成feign接口的代理对象" />
-    <MESSAGE value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
     <MESSAGE value="cglib 生成代理对象 请求feign" />
     <MESSAGE value="cglib 添加注释" />
     <MESSAGE value="cglib 依赖更新" />
@@ -1186,7 +1202,9 @@
     <MESSAGE value="fix: 警告消除" />
     <MESSAGE value="feat: 网关token过滤器" />
     <MESSAGE value="fix: 全局过滤器顺序调整到自定义的过滤器的最后" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 全局过滤器顺序调整到自定义的过滤器的最后" />
+    <MESSAGE value="feat: 网关针对路由进行限流操作" />
+    <MESSAGE value="chore: 更新忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 更新忽略文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

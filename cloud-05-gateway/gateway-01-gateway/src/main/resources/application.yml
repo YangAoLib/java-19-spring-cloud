@@ -37,6 +37,20 @@ spring:
           enabled: true
           # 服务名使用小写
           lower-case-service-id: true
+      # 配置文件配置跨域
+      globalcors:
+        cors-configurations:
+          # 如果要使用特殊字符（eg. *）做key那么需要使用 [] 进行包裹
+          [/**]:
+            # 允许携带Cookie
+            allow-credentials: true
+            allowed-headers:
+              - '*'
+            allowed-methods:
+              - '*'
+            allowed-origins:
+              - '*'
+
   redis:
     password: nswdfq
 eureka:
