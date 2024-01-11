@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="fix: 警告消除">
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/main/java/edu/yangao/Gateway03TestAuthServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/main/java/edu/yangao/controller/TestAuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/src/test/java/edu/yangao/Gateway03TestAuthServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="fix: 全局过滤器顺序调整到自定义的过滤器的最后">
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/config/RequestRateLimiterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/config/RouteConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/GatewayGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/Gateway01GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/java/edu/yangao/filter/TokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-01-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/java/edu/yangao/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
@@ -136,6 +127,9 @@
     "HTTP 请求.ServiceOrderApplication | #1.executor": "Run",
     "HTTP 请求.generated-requests | #1.executor": "Run",
     "HTTP 请求.generated-requests | #2.executor": "Run",
+    "HTTP 请求.generated-requests | direct login.executor": "Run",
+    "HTTP 请求.generated-requests | login.executor": "Run",
+    "JAR 应用程序.zipkin-链路追踪.executor": "JRebel Executor",
     "JUnit.CglibFirstTest.testCglib.executor": "Run",
     "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
     "JUnit.CryptoTest.testSM4.executor": "Run",
@@ -162,14 +156,14 @@
     "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
     "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
     "Spring Boot.Feign02ConsumerApplication.executor": "Run",
-    "Spring Boot.Gateway01GatewayApplication-80.executor": "JRebel Debug",
+    "Spring Boot.Gateway01GatewayApplication-80.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication-81.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication-82.executor": "JRebel Executor",
     "Spring Boot.Gateway01GatewayApplication.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication-8080.executor": "JRebel Debug",
-    "Spring Boot.Gateway02LoginServerApplication-8081.executor": "JRebel Debug",
+    "Spring Boot.Gateway02LoginServerApplication-8080.executor": "JRebel Executor",
+    "Spring Boot.Gateway02LoginServerApplication-8081.executor": "JRebel Executor",
     "Spring Boot.Gateway02LoginServerApplication.executor": "Run",
-    "Spring Boot.Gateway03TestAuthServerApplication.executor": "JRebel Debug",
+    "Spring Boot.Gateway03TestAuthServerApplication.executor": "JRebel Executor",
     "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
     "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
@@ -183,7 +177,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-05-gateway/gateway-03-test-auth-server/src/main/resources",
+    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/软件/zipkin-server-2.12.9-exec.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -193,11 +187,15 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "zielu.gittoolbox.app.config.v2",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true",
-    "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.shared.autoFetch"
+    "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.prj.diagnostic"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "redis"
+    ],
     "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
       "TEXT"
     ]
@@ -225,6 +223,7 @@
     <option name="configurationTypes">
       <set>
         <option value="JUnit" />
+        <option value="JarApplication" />
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
@@ -242,28 +241,15 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.PandoraNext">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="运行单个请求">
+  <component name="RunManager" selected="JAR 应用程序.zipkin-链路追踪">
+    <configuration name="generated-requests | direct login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="direct login" runType="运行单个请求">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="运行单个请求">
+    <configuration name="generated-requests | login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="login" runType="运行单个请求">
       <method v="2" />
     </configuration>
-    <configuration name="Feign02ConsumerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="feign-02-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.yangao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.Feign02ConsumerApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | test-auth" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="test-auth" runType="运行单个请求">
+      <method v="2" />
     </configuration>
     <configuration name="Gateway01GatewayApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gateway-01-gateway" />
@@ -296,6 +282,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="zipkin-链路追踪" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/软件/zipkin-server-2.12.9-exec.jar" />
+      <option name="WORKING_DIRECTORY" value="D:\project\learn\java\spring-cloud\java-19-spring-cloud" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2" />
     </configuration>
     <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/feign-project">
       <module name="admin-server" />
@@ -634,15 +627,16 @@
     </configuration>
     <list>
       <item itemvalue="Docker.PandoraNext" />
-      <item itemvalue="HTTP 请求.generated-requests | #1" />
-      <item itemvalue="HTTP 请求.generated-requests | #2" />
+      <item itemvalue="HTTP 请求.generated-requests | direct login" />
+      <item itemvalue="HTTP 请求.generated-requests | test-auth" />
+      <item itemvalue="HTTP 请求.generated-requests | login" />
+      <item itemvalue="JAR 应用程序.zipkin-链路追踪" />
       <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.Feign02ConsumerApplicationTests.contextLoads" />
       <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
-      <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application-8083" />
+      <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application" />
       <item itemvalue="Spring Boot.Eureka03EurekaClientBApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClientAForClusterApplication" />
@@ -662,9 +656,9 @@
       <item itemvalue="Spring Boot.Feign02ConsumerApplication" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8090" />
       <item itemvalue="Spring Boot.Feign01ProviderApplication-8091" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
       <item itemvalue="Spring Boot.ServiceOrderApplication" />
       <item itemvalue="Spring Boot.ServiceUserApplication" />
-      <item itemvalue="Spring Boot.AdminServerApplication" />
       <item itemvalue="Spring Boot.Hystrix02RentCarConsumerApplication" />
       <item itemvalue="Spring Boot.Hystrix03HedgehogApplication" />
       <item itemvalue="Spring Boot.Hystrix01RentCarProviderApplication-8090" />
@@ -672,17 +666,17 @@
       <item itemvalue="Spring Boot.Gateway01GatewayApplication-80" />
       <item itemvalue="Spring Boot.Gateway01GatewayApplication-81-service8080" />
       <item itemvalue="Spring Boot.Gateway01GatewayApplication-82-service8081" />
-      <item itemvalue="Spring Boot.Gateway03TestAuthServerApplication" />
-      <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8081" />
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8080" />
+      <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8081" />
+      <item itemvalue="Spring Boot.Gateway03TestAuthServerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP 请求.generated-requests | #1" />
-        <item itemvalue="HTTP 请求.generated-requests | #2" />
+        <item itemvalue="HTTP 请求.generated-requests | direct login" />
+        <item itemvalue="HTTP 请求.generated-requests | login" />
+        <item itemvalue="HTTP 请求.generated-requests | test-auth" />
         <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
         <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.Feign02ConsumerApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -783,7 +777,18 @@
       <workItem from="1704243911502" duration="16876000" />
       <workItem from="1704330209738" duration="3262000" />
       <workItem from="1704354480234" duration="1350000" />
-      <workItem from="1704356005026" duration="4455000" />
+      <workItem from="1704356005026" duration="5386000" />
+      <workItem from="1704416846922" duration="3928000" />
+      <workItem from="1704421647494" duration="2000" />
+      <workItem from="1704421657539" duration="786000" />
+      <workItem from="1704422839727" duration="3860000" />
+      <workItem from="1704677583818" duration="3709000" />
+      <workItem from="1704761655842" duration="7202000" />
+      <workItem from="1704848821262" duration="3460000" />
+      <workItem from="1704867926569" duration="611000" />
+      <workItem from="1704874499364" duration="681000" />
+      <workItem from="1704934928308" duration="2812000" />
+      <workItem from="1704943827310" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="更新忽略文件">
       <option name="closed" value="true" />
@@ -1121,7 +1126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704357143846</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat: 网关token过滤器">
+      <option name="closed" value="true" />
+      <created>1704361872594</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1704361872594</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix: 全局过滤器顺序调整到自定义的过滤器的最后">
+      <option name="closed" value="true" />
+      <created>1704362037813</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1704362037813</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1140,8 +1161,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="忽略文件更新" />
-    <MESSAGE value="get 请求 传日期参数 （feign日期传参会有误差, 所以推荐转成字符串或时间戳进行传输）" />
     <MESSAGE value="简单手写 如何生成feign接口的代理对象" />
     <MESSAGE value="get 请求传递日期的新解决方法, 在请求和调用的双方都添加DateTimeFormat注解来指明日期格式化的方式" />
     <MESSAGE value="cglib 生成代理对象 请求feign" />
@@ -1165,7 +1184,9 @@
     <MESSAGE value="arst: test" />
     <MESSAGE value="feat: 通过过滤器实现IP黑名单拦截" />
     <MESSAGE value="fix: 警告消除" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 警告消除" />
+    <MESSAGE value="feat: 网关token过滤器" />
+    <MESSAGE value="fix: 全局过滤器顺序调整到自定义的过滤器的最后" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 全局过滤器顺序调整到自定义的过滤器的最后" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

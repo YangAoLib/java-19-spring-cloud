@@ -8,6 +8,14 @@ spring:
       routes:
         - id: login-server-route
           uri: http://localhost:8081
+          filters:
+            - name: RequestRateLimiter
+              args:
+#                key-resolver: '#{@ipKeyResolver}'
+                key-resolver: '#{@apiKeyResolver}'
+                redis-rate-limiter:
+                  replenish-rate: 1
+                  burst-capacity: 3
           predicates:
             - Path=/login
             # 请求时间的要求
@@ -31,3 +39,6 @@ spring:
           lower-case-service-id: true
   redis:
     password: nswdfq
+eureka:
+  client:
+    registry-fetch-interval-seconds: 3

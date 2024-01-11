@@ -50,8 +50,8 @@ public class TokenFilter implements GlobalFilter, Ordered {
         if (!CollectionUtils.isEmpty(authorization)) {
             String token = authorization.get(0);
             if (token != null && !token.isEmpty()) {
-                if (token.startsWith("bearer ")) {
-                    token = token.replace("bearer ", "");
+                if (token.startsWith("Bearer ")) {
+                    token = token.replace("Bearer ", "");
                 }
                 // 判断其是否在redis中
                 if (Boolean.TRUE.equals(redisTemplate.hasKey(token))) {
