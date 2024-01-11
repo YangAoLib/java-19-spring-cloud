@@ -50,7 +50,6 @@ spring:
               - '*'
             allowed-origins:
               - '*'
-
   redis:
     password: nswdfq
 eureka:
