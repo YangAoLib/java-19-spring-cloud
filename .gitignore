@@ -45,3 +45,5 @@ build/
 /软件.zip
 
 rebel.xml
+/cloud-06-nacos/src/main/resources/nacos-2.0.3/data/
+/cloud-06-nacos/src/main/resources/nacos-2.0.3/logs/
