@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 测试mockito">
-      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/resources/zipkin-server-2.12.9-exec.jar" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 更新忽略文件">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/shutdown.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/shutdown.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/startup.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/startup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/1.4.0-ipv6_support-update.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/cluster.conf.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/nacos-logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/nacos-mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/access_log.2024-01-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +162,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Shell Script.nacos-2.0.3.executor": "Run",
     "Spring Boot.AdminServerApplication.executor": "Run",
     "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
     "Spring Boot.Eureka02EurekaClient-A-Application-8083.executor": "Run",
@@ -175,9 +192,9 @@
     "WebServerToolWindowFactoryState": "false",
     "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/resources/zipkin-server-2.12.9-exec.jar",
+    "last_opened_file_path": "C:/Windows/System32/cmd.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -187,7 +204,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31300348",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true",
     "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.prj.diagnostic"
   },
@@ -213,11 +230,11 @@
       <recent name="edu.yangao.feign.hystrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\admin-server\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-03-test-auth-server\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-01-gateway\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\service-user\src\main\resources" />
-      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-03-feign\feign-02-consumer\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,6 +244,7 @@
         <option value="JarApplication" />
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
+        <option value="ShConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
@@ -242,7 +260,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JAR 应用程序.zipkin-链路追踪">
+  <component name="RunManager" selected="Shell Script.nacos-2.0.3">
     <configuration name="generated-requests | direct login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="direct login" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -302,6 +320,21 @@
       <option name="WORKING_DIRECTORY" value="D:\project\learn\java\spring-cloud\java-19-spring-cloud" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nacos-2.0.3" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/startup.cmd" />
+      <option name="SCRIPT_OPTIONS" value="-m standalone" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="04hystrix/feign-project">
@@ -647,6 +680,7 @@
       <item itemvalue="JUnit.ServiceOrderApplicationTest.mockTest" />
       <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
       <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
+      <item itemvalue="Shell Script.nacos-2.0.3" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
       <item itemvalue="Spring Boot.Eureka01EurekaServerDockerApplication" />
       <item itemvalue="Spring Boot.Eureka02EurekaClient-A-Application-8083" />
@@ -808,22 +842,7 @@
       <workItem from="1705240027920" duration="2123000" />
       <workItem from="1705367137731" duration="873000" />
       <workItem from="1705368028896" duration="7555000" />
-    </task>
-    <task id="LOCAL-00004" summary="eureka docker镜像添加是否注册自身配置">
-      <option name="closed" value="true" />
-      <created>1702395555496</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395555496</updated>
-    </task>
-    <task id="LOCAL-00005" summary="添加hostname">
-      <option name="closed" value="true" />
-      <created>1702395581018</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395581018</updated>
+      <workItem from="1705381852450" duration="10195000" />
     </task>
     <task id="LOCAL-00006" summary="更改default-zone→defaultZone 如果使用default-zone无法被正确识别">
       <option name="closed" value="true" />
@@ -1201,7 +1220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705370789478</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="feat: zipkin jar包上传">
+      <option name="closed" value="true" />
+      <created>1705381933846</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1705381933846</updated>
+    </task>
+    <task id="LOCAL-00054" summary="chore: 更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1705399698665</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1705399698665</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1220,7 +1255,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
     <MESSAGE value="feat: 手写类似熔断器功能 使用aop针对方法进行熔断" />
     <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
     <MESSAGE value="feat: 手写hystrix模拟更新" />
@@ -1240,12 +1274,13 @@
     <MESSAGE value="feat: 网关token过滤器" />
     <MESSAGE value="fix: 全局过滤器顺序调整到自定义的过滤器的最后" />
     <MESSAGE value="feat: 网关针对路由进行限流操作" />
-    <MESSAGE value="chore: 更新忽略文件" />
     <MESSAGE value="feat: 网关跨域配置" />
     <MESSAGE value="feat: 网关指定开启eureka" />
     <MESSAGE value="fix: 手写断路器 半开后如果失败调用后的逻辑由原来地进入短路状态转换为保持半开状态" />
     <MESSAGE value="feat: 测试mockito" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试mockito" />
+    <MESSAGE value="feat: zipkin jar包上传" />
+    <MESSAGE value="chore: 更新忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 更新忽略文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
