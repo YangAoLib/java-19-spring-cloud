@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 更新忽略文件">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/NOTICE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/shutdown.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/shutdown.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/startup.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/startup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/1.4.0-ipv6_support-update.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/cluster.conf.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/nacos-logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/nacos-mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/access_log.2024-01-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/access_log.2024-01-16.log" beforeDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
@@ -328,7 +314,7 @@
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/bin/startup.cmd" />
       <option name="SCRIPT_OPTIONS" value="-m standalone" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/work" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -842,23 +828,7 @@
       <workItem from="1705240027920" duration="2123000" />
       <workItem from="1705367137731" duration="873000" />
       <workItem from="1705368028896" duration="7555000" />
-      <workItem from="1705381852450" duration="10195000" />
-    </task>
-    <task id="LOCAL-00006" summary="更改default-zone→defaultZone 如果使用default-zone无法被正确识别">
-      <option name="closed" value="true" />
-      <created>1702395629763</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395629763</updated>
-    </task>
-    <task id="LOCAL-00007" summary="单体eureka不进行自身注册">
-      <option name="closed" value="true" />
-      <created>1702395649532</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395649532</updated>
+      <workItem from="1705381852450" duration="10428000" />
     </task>
     <task id="LOCAL-00008" summary="包名修改">
       <option name="closed" value="true" />
@@ -1236,7 +1206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705399698665</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="feat: nacos 2.0.3 添加">
+      <option name="closed" value="true" />
+      <created>1705399812895</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1705399812895</updated>
+    </task>
+    <task id="LOCAL-00056" summary="chore: 更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1705399888368</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1705399888368</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1255,7 +1241,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: 手写类似熔断器功能 使用aop针对方法进行熔断" />
     <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
     <MESSAGE value="feat: 手写hystrix模拟更新" />
     <MESSAGE value="feat: hystrix配置注释更新" />
@@ -1279,6 +1264,7 @@
     <MESSAGE value="fix: 手写断路器 半开后如果失败调用后的逻辑由原来地进入短路状态转换为保持半开状态" />
     <MESSAGE value="feat: 测试mockito" />
     <MESSAGE value="feat: zipkin jar包上传" />
+    <MESSAGE value="feat: nacos 2.0.3 添加" />
     <MESSAGE value="chore: 更新忽略文件" />
     <option name="LAST_COMMIT_MESSAGE" value="chore: 更新忽略文件" />
   </component>
