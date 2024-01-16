@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 网关跨域配置" />
-    <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 测试mockito">
+      <change afterPath="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/resources/zipkin-server-2.12.9-exec.jar" afterDir="false" />
+    </list>
+    <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,92 +115,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.PandoraNext.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 请求.ServiceOrderApplication | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 请求.generated-requests | direct login.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 请求.generated-requests | login.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 请求.generated-requests | test-auth.executor&quot;: &quot;Run&quot;,
-    &quot;JAR 应用程序.zipkin-链路追踪.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;JUnit.CglibFirstTest.testCglib.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CryptoTest.testCustomizeAes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CryptoTest.testSM4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DateUtilTest.testDateFormat.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Feign02ConsumerApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Gateway01GatewayApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HutoolCryptoTest.testAes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProviderFeignCglibTest.testInvoke.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProviderFeignProxyTest.testInvoke.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProviderFeignProxyTest.testURI.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ServiceOrderApplicationTest.mockTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TimeIntervalTest.testInterval.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.feign-02-consumer [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AdminServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Eureka01EurekaServerDockerApplication.executor&quot;: &quot;JRebel Debug&quot;,
-    &quot;Spring Boot.Eureka02EurekaClient-A-Application-8083.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Eureka02EurekaClient-A-Application.executor&quot;: &quot;JRebel Debug&quot;,
-    &quot;Spring Boot.Eureka04RestTemplateApplication.executor&quot;: &quot;JRebel Debug&quot;,
-    &quot;Spring Boot.Feign01ProviderApplication-8090.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Feign01ProviderApplication-8091.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Feign02ConsumerApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.Gateway01GatewayApplication-80.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Gateway01GatewayApplication-81.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Gateway01GatewayApplication-82.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Gateway01GatewayApplication.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Gateway02LoginServerApplication-8080.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Gateway02LoginServerApplication-8081.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Gateway02LoginServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Gateway03TestAuthServerApplication.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Hystrix01RentCarProviderApplication-8090.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Hystrix01RentCarProviderApplication-8091.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Hystrix02RentCarConsumerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Hystrix03HedgehogApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Ribbon01RibbonProviderApplication-8081.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Ribbon01RibbonProviderApplication-8082.executor&quot;: &quot;JRebel Executor&quot;,
-    &quot;Spring Boot.Ribbon02ConsumerApplication.executor&quot;: &quot;JRebel Debug&quot;,
-    &quot;Spring Boot.ServiceOrderApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ServiceUserApplication.executor&quot;: &quot;Run&quot;,
-    &quot;StatusDashboardGroupingRule&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/project/learn/java/spring-cloud/java-19-spring-cloud/软件/zipkin-server-2.12.9-exec.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31300348&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;zielu.gittoolbox.prj.config.selected.tab.id&quot;: &quot;zielu.gittoolbox.config.prj.diagnostic&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.PandoraNext.executor": "Run",
+    "HTTP 请求.ServiceOrderApplication | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #2.executor": "Run",
+    "HTTP 请求.generated-requests | direct login.executor": "Run",
+    "HTTP 请求.generated-requests | login.executor": "Run",
+    "HTTP 请求.generated-requests | test-auth.executor": "Run",
+    "JAR 应用程序.zipkin-链路追踪.executor": "Run",
+    "JUnit.CglibFirstTest.testCglib.executor": "Run",
+    "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
+    "JUnit.CryptoTest.testSM4.executor": "Run",
+    "JUnit.DateUtilTest.testDateFormat.executor": "Run",
+    "JUnit.Feign02ConsumerApplicationTests.contextLoads.executor": "Run",
+    "JUnit.Gateway01GatewayApplicationTests.contextLoads.executor": "Run",
+    "JUnit.HutoolCryptoTest.testAes.executor": "Run",
+    "JUnit.ProviderFeignCglibTest.testInvoke.executor": "Run",
+    "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
+    "JUnit.ProviderFeignProxyTest.testURI.executor": "Run",
+    "JUnit.ServiceOrderApplicationTest.mockTest.executor": "Run",
+    "JUnit.TimeIntervalTest.testInterval.executor": "Run",
+    "Maven.feign-02-consumer [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AdminServerApplication.executor": "Run",
+    "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
+    "Spring Boot.Eureka02EurekaClient-A-Application-8083.executor": "Run",
+    "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
+    "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
+    "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
+    "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
+    "Spring Boot.Feign02ConsumerApplication.executor": "Debug",
+    "Spring Boot.Gateway01GatewayApplication-80.executor": "JRebel Executor",
+    "Spring Boot.Gateway01GatewayApplication-81.executor": "JRebel Executor",
+    "Spring Boot.Gateway01GatewayApplication-82.executor": "JRebel Executor",
+    "Spring Boot.Gateway01GatewayApplication.executor": "JRebel Executor",
+    "Spring Boot.Gateway02LoginServerApplication-8080.executor": "JRebel Executor",
+    "Spring Boot.Gateway02LoginServerApplication-8081.executor": "JRebel Executor",
+    "Spring Boot.Gateway02LoginServerApplication.executor": "Run",
+    "Spring Boot.Gateway03TestAuthServerApplication.executor": "JRebel Executor",
+    "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
+    "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
+    "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
+    "Spring Boot.Hystrix03HedgehogApplication.executor": "Run",
+    "Spring Boot.Ribbon01RibbonProviderApplication-8081.executor": "JRebel Executor",
+    "Spring Boot.Ribbon01RibbonProviderApplication-8082.executor": "JRebel Executor",
+    "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
+    "Spring Boot.ServiceOrderApplication.executor": "Run",
+    "Spring Boot.ServiceUserApplication.executor": "Run",
+    "StatusDashboardGroupingRule": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/resources/zipkin-server-2.12.9-exec.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31300348",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.prj.diagnostic"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "redis"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
-      &quot;TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="debugInitializationType" value="NONE" />
     <option name="notificationShown" value="true" />
@@ -208,6 +213,7 @@
       <recent name="edu.yangao.feign.hystrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\admin-server\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-03-test-auth-server\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-05-gateway\gateway-01-gateway\src\main\resources" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-04-hystrix\hystrix-04-feign-project\service-user\src\main\resources" />
@@ -236,7 +242,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceOrderApplicationTest.mockTest">
+  <component name="RunManager" selected="JAR 应用程序.zipkin-链路追踪">
     <configuration name="generated-requests | direct login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="direct login" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -292,7 +298,7 @@
       </method>
     </configuration>
     <configuration name="zipkin-链路追踪" type="JarApplication">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/软件/zipkin-server-2.12.9-exec.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/cloud-04-hystrix/hystrix-04-feign-project/admin-server/src/main/resources/zipkin-server-2.12.9-exec.jar" />
       <option name="WORKING_DIRECTORY" value="D:\project\learn\java\spring-cloud\java-19-spring-cloud" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -801,23 +807,7 @@
       <workItem from="1705021712092" duration="14593000" />
       <workItem from="1705240027920" duration="2123000" />
       <workItem from="1705367137731" duration="873000" />
-      <workItem from="1705368028896" duration="793000" />
-    </task>
-    <task id="LOCAL-00002" summary="更新忽略文件">
-      <option name="closed" value="true" />
-      <created>1702395504940</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395504940</updated>
-    </task>
-    <task id="LOCAL-00003" summary="更新idea配置">
-      <option name="closed" value="true" />
-      <created>1702395536451</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395536451</updated>
+      <workItem from="1705368028896" duration="7555000" />
     </task>
     <task id="LOCAL-00004" summary="eureka docker镜像添加是否注册自身配置">
       <option name="closed" value="true" />
@@ -1195,7 +1185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704955611044</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fix: 手写断路器 半开后如果失败调用后的逻辑由原来地进入短路状态转换为保持半开状态">
+      <option name="closed" value="true" />
+      <created>1705370607197</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1705370607198</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: 测试mockito">
+      <option name="closed" value="true" />
+      <created>1705370789477</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1705370789478</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1214,8 +1220,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="cglib 依赖更新" />
-    <MESSAGE value="feat: feign 日志输出" />
     <MESSAGE value="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）" />
     <MESSAGE value="feat: 手写类似熔断器功能 使用aop针对方法进行熔断" />
     <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
@@ -1239,7 +1243,9 @@
     <MESSAGE value="chore: 更新忽略文件" />
     <MESSAGE value="feat: 网关跨域配置" />
     <MESSAGE value="feat: 网关指定开启eureka" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 网关指定开启eureka" />
+    <MESSAGE value="fix: 手写断路器 半开后如果失败调用后的逻辑由原来地进入短路状态转换为保持半开状态" />
+    <MESSAGE value="feat: 测试mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试mockito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1268,11 +1274,6 @@
           <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/feign/SynchronousMethodHandler.java</url>
           <line>83</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cloud-04-hystrix/hystrix-03-hedgehog/src/main/java/edu/yangao/hedgehog/HedgehogAspect.java</url>
