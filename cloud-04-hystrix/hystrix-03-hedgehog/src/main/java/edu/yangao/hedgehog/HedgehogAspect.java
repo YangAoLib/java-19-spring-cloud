@@ -57,8 +57,7 @@ public class HedgehogAspect {
                         hedgehogModel.close();
                         return result;
                     } catch (Throwable e) {
-                        // 如果出现错误, 熔断器记数
-                        hedgehogModel.addFailCount();
+                        // 保持半开状态
                         // 返回备用数据
                         return "刺猬熔断器: 租车失败";
                     }
