@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 测试远程调用命名空间与分组隔离">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos集成open feign">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/src/main/java/edu/yangao/Nacos03GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/src/test/java/edu/yangao/Nacos03GatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
@@ -168,8 +172,9 @@
     "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
     "Spring Boot.Hystrix03HedgehogApplication.executor": "Run",
-    "Spring Boot.Nacos01ClientAApplication.executor": "Run",
-    "Spring Boot.Nacos02ClientBApplication.executor": "Run",
+    "Spring Boot.Nacos01ClientAApplication.executor": "JRebel Executor",
+    "Spring Boot.Nacos02ClientBApplication.executor": "JRebel Executor",
+    "Spring Boot.Nacos03GatewayApplication.executor": "JRebel Executor",
     "Spring Boot.Ribbon01RibbonProviderApplication-8081.executor": "JRebel Executor",
     "Spring Boot.Ribbon01RibbonProviderApplication-8082.executor": "JRebel Executor",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
@@ -247,7 +252,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Nacos02ClientBApplication">
+  <component name="RunManager" selected="Spring Boot.Nacos03GatewayApplication">
     <configuration name="generated-requests | direct login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="direct login" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -519,8 +524,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nacos01ClientAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/客户端" nameIsGenerated="true">
+    <configuration name="Nacos01ClientAApplication-8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/客户端">
       <module name="nacos-01-client-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos01ClientAApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nacos01ClientAApplication-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/客户端">
+      <module name="nacos-01-client-a" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8081" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos01ClientAApplication" />
       <extension name="coverage">
         <pattern>
@@ -535,6 +554,19 @@
     <configuration name="Nacos02ClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/客户端" nameIsGenerated="true">
       <module name="nacos-02-client-b" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos02ClientBApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nacos03GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/网关" nameIsGenerated="true">
+      <module name="nacos-03-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos03GatewayApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.yangao.*" />
@@ -713,8 +745,10 @@
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8080" />
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8081" />
       <item itemvalue="Spring Boot.Gateway03TestAuthServerApplication" />
-      <item itemvalue="Spring Boot.Nacos01ClientAApplication" />
+      <item itemvalue="Spring Boot.Nacos01ClientAApplication-8080" />
+      <item itemvalue="Spring Boot.Nacos01ClientAApplication-8081" />
       <item itemvalue="Spring Boot.Nacos02ClientBApplication" />
+      <item itemvalue="Spring Boot.Nacos03GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -841,23 +875,7 @@
       <workItem from="1705368028896" duration="7555000" />
       <workItem from="1705381852450" duration="10761000" />
       <workItem from="1705400324133" duration="16000" />
-      <workItem from="1705452880674" duration="7292000" />
-    </task>
-    <task id="LOCAL-00012" summary="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法">
-      <option name="closed" value="true" />
-      <created>1702522307193</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1702522307193</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ribbon 可选配置与其默认值 添加">
-      <option name="closed" value="true" />
-      <created>1702818004417</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1702818004417</updated>
+      <workItem from="1705452880674" duration="8272000" />
     </task>
     <task id="LOCAL-00014" summary="feign初步使用">
       <option name="closed" value="true" />
@@ -1235,7 +1253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705470742586</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="feat: nacos集成open feign">
+      <option name="closed" value="true" />
+      <created>1705472369554</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1705472369554</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat: nacos集成open feign">
+      <option name="closed" value="true" />
+      <created>1705472392861</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1705472392861</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1254,7 +1288,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: feign cloud项目结构" />
     <MESSAGE value="feat: 链路追踪 服务监控" />
     <MESSAGE value="feat: gateway初步使用" />
     <MESSAGE value="feat: gateway nginx 集群" />
@@ -1279,7 +1312,8 @@
     <MESSAGE value="chore: 清理多余文件" />
     <MESSAGE value="feat: nacos客户端" />
     <MESSAGE value="feat: 测试远程调用命名空间与分组隔离" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试远程调用命名空间与分组隔离" />
+    <MESSAGE value="feat: nacos集成open feign" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos集成open feign" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1341,7 +1375,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/java/edu/yangao/controller/AccessRemoteTestController.java</url>
-          <line>27</line>
+          <line>31</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
