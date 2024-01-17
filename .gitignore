@@ -46,5 +46,6 @@ build/
 
 rebel.xml
 /cloud-06-nacos/src/main/resources/nacos-2.0.3/data/
+!/cloud-06-nacos/src/main/resources/nacos-2.0.3/target/
 /cloud-06-nacos/src/main/resources/nacos-2.0.3/work/**
 **/logs/
