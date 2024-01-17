@@ -1,0 +1,17 @@
+server:
+    port: 8090
+spring:
+    application:
+        name: nacos-client-b
+    cloud:
+        nacos:
+            server-addr: localhost:8848
+            discovery:
+                # 命名空间 要填写创建的命名空间的ID 默认为public
+                namespace: 4fb7b1c2-e9fc-4665-b176-5915d4e1530a
+                # 该实例所属分组 默认为 DEFAULT_GROUP
+                group: B_GROUP
+                # 注册到注册中心的服务名 默认为 ${spring.application.name}
+#                service: client-b-service
+            username: nacos
+            password: nacos

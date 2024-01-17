@@ -40,6 +40,8 @@
         <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-02-login-server/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-05-gateway/gateway-03-test-auth-server/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-06-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

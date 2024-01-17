@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 更新忽略文件">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 清理多余文件">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/java/edu/yangao/Nacos01ClientAApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/test/java/edu/yangao/Nacos01ClientAApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/java/edu/yangao/Nacos02ClientBApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/test/java/edu/yangao/Nacos02ClientBApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/access_log.2024-01-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
@@ -169,6 +177,8 @@
     "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
     "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
     "Spring Boot.Hystrix03HedgehogApplication.executor": "Run",
+    "Spring Boot.Nacos01ClientAApplication.executor": "Run",
+    "Spring Boot.Nacos02ClientBApplication.executor": "Run",
     "Spring Boot.Ribbon01RibbonProviderApplication-8081.executor": "JRebel Executor",
     "Spring Boot.Ribbon01RibbonProviderApplication-8082.executor": "JRebel Executor",
     "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
@@ -246,28 +256,12 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Shell Script.nacos-2.0.3">
+  <component name="RunManager" selected="Spring Boot.Nacos02ClientBApplication">
     <configuration name="generated-requests | direct login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="direct login" runType="运行单个请求">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | test-auth" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="test-auth" runType="运行单个请求">
       <method v="2" />
-    </configuration>
-    <configuration name="Gateway01GatewayApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gateway-01-gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.yangao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.yangao" />
-      <option name="MAIN_CLASS_NAME" value="edu.yangao.Gateway01GatewayApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ProviderFeignProxyTest.testURI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="feign-02-consumer" />
@@ -534,6 +528,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Nacos01ClientAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="nacos-01-client-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos01ClientAApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nacos02ClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="nacos-02-client-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos02ClientBApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ribbon01ProviderApplication-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="02ribbon/生产者">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -664,7 +684,6 @@
       <item itemvalue="HTTP 请求.generated-requests | test-auth" />
       <item itemvalue="JAR 应用程序.zipkin-链路追踪" />
       <item itemvalue="JUnit.ServiceOrderApplicationTest.mockTest" />
-      <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
       <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
       <item itemvalue="Shell Script.nacos-2.0.3" />
       <item itemvalue="Spring Boot.Eureka04RestTemplateApplication" />
@@ -703,6 +722,8 @@
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8080" />
       <item itemvalue="Spring Boot.Gateway02LoginServerApplication-8081" />
       <item itemvalue="Spring Boot.Gateway03TestAuthServerApplication" />
+      <item itemvalue="Spring Boot.Nacos01ClientAApplication" />
+      <item itemvalue="Spring Boot.Nacos02ClientBApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -710,7 +731,6 @@
         <item itemvalue="HTTP 请求.generated-requests | test-auth" />
         <item itemvalue="HTTP 请求.generated-requests | direct login" />
         <item itemvalue="JUnit.ProviderFeignProxyTest.testURI" />
-        <item itemvalue="JUnit.Gateway01GatewayApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -828,23 +848,9 @@
       <workItem from="1705240027920" duration="2123000" />
       <workItem from="1705367137731" duration="873000" />
       <workItem from="1705368028896" duration="7555000" />
-      <workItem from="1705381852450" duration="10428000" />
-    </task>
-    <task id="LOCAL-00008" summary="包名修改">
-      <option name="closed" value="true" />
-      <created>1702395736522</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1702395736522</updated>
-    </task>
-    <task id="LOCAL-00009" summary="客户端A http 请求调用客户端B">
-      <option name="closed" value="true" />
-      <created>1702396050105</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1702396050105</updated>
+      <workItem from="1705381852450" duration="10761000" />
+      <workItem from="1705400324133" duration="16000" />
+      <workItem from="1705452880674" duration="4248000" />
     </task>
     <task id="LOCAL-00010" summary="客户端A http 请求调用客户端B">
       <option name="closed" value="true" />
@@ -1222,7 +1228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705399888368</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="chore: 更新忽略文件">
+      <option name="closed" value="true" />
+      <created>1705400001327</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1705400001327</updated>
+    </task>
+    <task id="LOCAL-00058" summary="chore: 清理多余文件">
+      <option name="closed" value="true" />
+      <created>1705400013714</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1705400013715</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1241,7 +1263,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: hystrix 的配置与隔离方式的区别" />
     <MESSAGE value="feat: 手写hystrix模拟更新" />
     <MESSAGE value="feat: hystrix配置注释更新" />
     <MESSAGE value="feat: feign cloud项目结构" />
@@ -1266,7 +1287,8 @@
     <MESSAGE value="feat: zipkin jar包上传" />
     <MESSAGE value="feat: nacos 2.0.3 添加" />
     <MESSAGE value="chore: 更新忽略文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: 更新忽略文件" />
+    <MESSAGE value="chore: 清理多余文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 清理多余文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
