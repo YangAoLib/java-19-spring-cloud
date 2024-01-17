@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="chore: 清理多余文件">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/java/edu/yangao/Nacos01ClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/test/java/edu/yangao/Nacos01ClientAApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/java/edu/yangao/Nacos02ClientBApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/test/java/edu/yangao/Nacos02ClientBApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos客户端">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/java/edu/yangao/controller/AccessRemoteTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
@@ -850,15 +840,7 @@
       <workItem from="1705368028896" duration="7555000" />
       <workItem from="1705381852450" duration="10761000" />
       <workItem from="1705400324133" duration="16000" />
-      <workItem from="1705452880674" duration="4248000" />
-    </task>
-    <task id="LOCAL-00010" summary="客户端A http 请求调用客户端B">
-      <option name="closed" value="true" />
-      <created>1702431742374</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1702431742374</updated>
+      <workItem from="1705452880674" duration="6203000" />
     </task>
     <task id="LOCAL-00011" summary="rest template ribbon 负载均衡">
       <option name="closed" value="true" />
@@ -1244,7 +1226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705400013715</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="feat: nacos客户端">
+      <option name="closed" value="true" />
+      <created>1705468754253</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1705468754253</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1263,7 +1253,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: 手写hystrix模拟更新" />
     <MESSAGE value="feat: hystrix配置注释更新" />
     <MESSAGE value="feat: feign cloud项目结构" />
     <MESSAGE value="feat: 链路追踪 服务监控" />
@@ -1288,7 +1277,8 @@
     <MESSAGE value="feat: nacos 2.0.3 添加" />
     <MESSAGE value="chore: 更新忽略文件" />
     <MESSAGE value="chore: 清理多余文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: 清理多余文件" />
+    <MESSAGE value="feat: nacos客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos客户端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
