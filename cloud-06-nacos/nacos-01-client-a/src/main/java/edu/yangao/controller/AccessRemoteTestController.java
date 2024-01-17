@@ -2,6 +2,7 @@ package edu.yangao.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import edu.yangao.feign.ProviderFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -23,9 +24,12 @@ public class AccessRemoteTestController {
     @Autowired
     private ObjectMapper objectMapper;
 
+    @Autowired
+    private ProviderFeign providerFeign;
+
     @GetMapping("get-remote-info")
     public String getRemoteInfo(@RequestParam String serviceId) throws JsonProcessingException {
         List<ServiceInstance> instances = discoveryClient.getInstances(serviceId);
-        return objectMapper.writeValueAsString(instances);
+        return providerFeign.info();
     }
 }

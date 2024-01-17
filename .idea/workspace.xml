@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos客户端">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/java/edu/yangao/controller/AccessRemoteTestController.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 测试远程调用命名空间与分组隔离">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/java/edu/yangao/controller/ProviderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/pom.xml" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
@@ -518,7 +519,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nacos01ClientAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Nacos01ClientAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/客户端" nameIsGenerated="true">
       <module name="nacos-01-client-a" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos01ClientAApplication" />
       <extension name="coverage">
@@ -531,7 +532,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nacos02ClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Nacos02ClientBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/客户端" nameIsGenerated="true">
       <module name="nacos-02-client-b" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos02ClientBApplication" />
       <extension name="coverage">
@@ -840,15 +841,7 @@
       <workItem from="1705368028896" duration="7555000" />
       <workItem from="1705381852450" duration="10761000" />
       <workItem from="1705400324133" duration="16000" />
-      <workItem from="1705452880674" duration="6203000" />
-    </task>
-    <task id="LOCAL-00011" summary="rest template ribbon 负载均衡">
-      <option name="closed" value="true" />
-      <created>1702435825373</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1702435825373</updated>
+      <workItem from="1705452880674" duration="7292000" />
     </task>
     <task id="LOCAL-00012" summary="rest template ribbon 规则测试&#10;添加配置文件配置负载均衡规则方法&#10;添加全局注入规则配置负载均衡规则方法">
       <option name="closed" value="true" />
@@ -1234,7 +1227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705468754253</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="feat: 测试远程调用命名空间与分组隔离">
+      <option name="closed" value="true" />
+      <created>1705470742586</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1705470742586</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1253,7 +1254,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: hystrix配置注释更新" />
     <MESSAGE value="feat: feign cloud项目结构" />
     <MESSAGE value="feat: 链路追踪 服务监控" />
     <MESSAGE value="feat: gateway初步使用" />
@@ -1278,7 +1278,8 @@
     <MESSAGE value="chore: 更新忽略文件" />
     <MESSAGE value="chore: 清理多余文件" />
     <MESSAGE value="feat: nacos客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos客户端" />
+    <MESSAGE value="feat: 测试远程调用命名空间与分组隔离" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 测试远程调用命名空间与分组隔离" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1337,6 +1338,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.2.9.RELEASE/spring-cloud-openfeign-core-2.2.9.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java</url>
           <line>351</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-06-nacos/nacos-01-client-a/src/main/java/edu/yangao/controller/AccessRemoteTestController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
