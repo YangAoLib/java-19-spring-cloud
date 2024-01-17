@@ -30,6 +30,7 @@ public class AccessRemoteTestController {
     @GetMapping("get-remote-info")
     public String getRemoteInfo(@RequestParam String serviceId) throws JsonProcessingException {
         List<ServiceInstance> instances = discoveryClient.getInstances(serviceId);
+        System.out.println(objectMapper.writeValueAsString(instances));
         return providerFeign.info();
     }
 }
