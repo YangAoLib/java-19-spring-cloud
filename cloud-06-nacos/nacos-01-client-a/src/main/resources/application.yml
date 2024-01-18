@@ -6,7 +6,10 @@ spring:
   cloud:
     nacos:
       # nacos服务所在地址 不填写contextPath
-      server-addr: localhost:8848
+      # 单机注册
+#      server-addr: localhost:8848
+      # 集群注册
+      server-addr: localhost:8841,localhost:8843,localhost:8845
       username: nacos
       password: nacos
       discovery:

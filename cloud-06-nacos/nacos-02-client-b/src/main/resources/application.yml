@@ -5,7 +5,11 @@ spring:
         name: nacos-client-b
     cloud:
         nacos:
-            server-addr: localhost:8848
+            # nacos服务所在地址 不填写contextPath
+            # 单机注册
+            #      server-addr: localhost:8848
+            # 集群注册
+            server-addr: localhost:8841,localhost:8843,localhost:8845
             discovery:
                 # 命名空间 要填写创建的命名空间的ID 默认为public
                 namespace: 4fb7b1c2-e9fc-4665-b176-5915d4e1530a

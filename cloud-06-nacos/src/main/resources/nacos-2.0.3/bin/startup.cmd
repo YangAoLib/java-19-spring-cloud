@@ -19,9 +19,8 @@ setlocal enabledelayedexpansion
 set BASE_DIR=%~dp0
 rem added double quotation marks to avoid the issue caused by the folder names containing spaces.
 rem removed the last 5 chars(which means \bin\) to get the base DIR.
-set BASE_DIR="%BASE_DIR:~0,-5%"
-
-set CUSTOM_SEARCH_LOCATIONS=file:%BASE_DIR%/conf/
+set BASE_DIR=%BASE_DIR:~0,-5%
+set WORK_DIR=%BASE_DIR%
 
 set MODE="cluster"
 set FUNCTION_MODE="all"
@@ -32,6 +31,9 @@ set SERVER_INDEX=-1
 set EMBEDDED_STORAGE_INDEX=-1
 set EMBEDDED_STORAGE=""
 
+set BASE_DIR_INDEX=-1
+set CONFIG_DIR_INDEX=-1
+
 
 set i=0
 for %%a in (%*) do (
@@ -39,6 +41,8 @@ for %%a in (%*) do (
     if "%%a" == "-f" ( set /a FUNCTION_MODE_INDEX=!i!+1 )
     if "%%a" == "-s" ( set /a SERVER_INDEX=!i!+1 )
     if "%%a" == "-p" ( set /a EMBEDDED_STORAGE_INDEX=!i!+1 )
+    if "%%a" == "-b" ( set /a BASE_DIR_INDEX=!i!+1 )
+    if "%%a" == "-c" ( set /a CONFIG_DIR_INDEX=!i!+1 )
     set /a i+=1
 )
 
@@ -48,8 +52,21 @@ for %%a in (%*) do (
     if %FUNCTION_MODE_INDEX% == !i! ( set FUNCTION_MODE="%%a" )
     if %SERVER_INDEX% == !i! (set SERVER="%%a")
     if %EMBEDDED_STORAGE_INDEX% == !i! (set EMBEDDED_STORAGE="%%a")
+    if %BASE_DIR_INDEX% == !i! (
+        set BASE_DIR="%BASE_DIR%/%%a"
+    )
     set /a i+=1
 )
+
+set CUSTOM_SEARCH_LOCATIONS=file:%BASE_DIR%/conf/
+set i=0
+for %%a in (%*) do (
+    if %CONFIG_DIR_INDEX% == !i! (
+        set CUSTOM_SEARCH_LOCATIONS="file:%BASE_DIR%/%%a/"
+    )
+    set /a i+=1
+)
+
 
 rem if nacos startup mode is standalone
 if %MODE% == "standalone" (
@@ -65,7 +82,7 @@ if %MODE% == "cluster" (
 	      set "NACOS_OPTS=-DembeddedStorage=true"
 	  )
 
-    set "NACOS_JVM_OPTS=-server -Xms2g -Xmx2g -Xmn1g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=%BASE_DIR%\logs\java_heapdump.hprof -XX:-UseLargePages"
+    set "NACOS_JVM_OPTS=-server -Xms2g -Xmx2g -Xmn1g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=%WORK_DIR%\logs\java_heapdump.hprof -XX:-UseLargePages"
 )
 
 rem set nacos's functionMode
@@ -78,15 +95,15 @@ if %FUNCTION_MODE% == "naming" (
 )
 
 rem set nacos options
-set "NACOS_OPTS=%NACOS_OPTS% -Dloader.path=%BASE_DIR%/plugins/health,%BASE_DIR%/plugins/cmdb"
+set "NACOS_OPTS=%NACOS_OPTS% -Dloader.path=%WORK_DIR%/plugins/health,%WORK_DIR%/plugins/cmdb"
 set "NACOS_OPTS=%NACOS_OPTS% -Dnacos.home=%BASE_DIR%"
-set "NACOS_OPTS=%NACOS_OPTS% -jar %BASE_DIR%\target\%SERVER%.jar"
+set "NACOS_OPTS=%NACOS_OPTS% -jar %WORK_DIR%\target\%SERVER%.jar"
 
 rem set nacos spring config location
 set "NACOS_CONFIG_OPTS=--spring.config.additional-location=%CUSTOM_SEARCH_LOCATIONS%"
 
 rem set nacos log4j file location
-set "NACOS_LOG4J_OPTS=--logging.config=%BASE_DIR%/conf/nacos-logback.xml"
+set "NACOS_LOG4J_OPTS=--logging.config=%CUSTOM_SEARCH_LOCATIONS%/nacos-logback.xml"
 
 
 set COMMAND="%JAVA%" %NACOS_JVM_OPTS% %NACOS_OPTS% %NACOS_CONFIG_OPTS% %NACOS_LOG4J_OPTS% nacos.nacos %*
