@@ -1,6 +1,7 @@
 package edu.yangao.controller;
 
-import org.springframework.beans.factory.annotation.Value;
+import edu.yangao.config.YangAoConfig;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,15 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestConfigCenterController {
 
-    @Value("${yangao.config.name}")
-    private String name;
-    @Value("${yangao.config.age}")
-    private Integer age;
-    @Value("${yangao.config.sex}")
-    private String sex;
+    @Autowired
+    private YangAoConfig yangAo;
 
     @GetMapping("info")
     public String info() {
-        return String.format("%s:%d:%s", name, age, sex);
+        return String.format("%s:%d:%s", yangAo.getName(), yangAo.getAge(), yangAo.getSex() );
     }
 }

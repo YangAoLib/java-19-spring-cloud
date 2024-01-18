@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos集群, 端口占用说明">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/java/edu/yangao/Nacos04ConfigClientAApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/java/edu/yangao/controller/TestConfigCenterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/test/java/edu/yangao/Nacos04ConfigClientAApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: 从nacos配置中心获取配置">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/java/edu/yangao/config/YangAoConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/src/main/resources/nacos-2.0.3/conf/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/java/edu/yangao/controller/TestConfigCenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/java/edu/yangao/controller/TestConfigCenterController.java" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/YangAo.xml" afterDir="false" />
@@ -953,15 +948,7 @@
       <workItem from="1705400324133" duration="16000" />
       <workItem from="1705452880674" duration="18599000" />
       <workItem from="1705540653625" duration="2374000" />
-      <workItem from="1705555431833" duration="3607000" />
-    </task>
-    <task id="LOCAL-00021" summary="cglib 添加注释">
-      <option name="closed" value="true" />
-      <created>1702987218821</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1702987218821</updated>
+      <workItem from="1705555431833" duration="4834000" />
     </task>
     <task id="LOCAL-00022" summary="cglib 依赖更新">
       <option name="closed" value="true" />
@@ -1347,7 +1334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705557056542</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="feat: 从nacos配置中心获取配置">
+      <option name="closed" value="true" />
+      <created>1705560328289</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1705560328289</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1366,7 +1361,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: gateway 路由断言配置" />
     <MESSAGE value="feat: gateway 全局过滤器" />
     <MESSAGE value="docs: 更新全局过滤器配置" />
     <MESSAGE value="feat: 修改全局过滤器优先级" />
@@ -1391,7 +1385,8 @@
     <MESSAGE value="chore: 更新忽略文件" />
     <MESSAGE value="feat: nacos集群, nacos集群的端口不能连续, 否则会出现端口冲突. 因为nacos集群除他本身的端口(主端口)外, 还会占用相对主端口 +1000 +1001 -1000 的额外三个端口" />
     <MESSAGE value="feat: nacos集群, 端口占用说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos集群, 端口占用说明" />
+    <MESSAGE value="feat: 从nacos配置中心获取配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 从nacos配置中心获取配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
