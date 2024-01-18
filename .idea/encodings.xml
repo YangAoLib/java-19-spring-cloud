@@ -54,6 +54,8 @@
     <file url="file://$PROJECT_DIR$/cloud-06-nacos/nacos-02-client-b/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-06-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-06-nacos/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

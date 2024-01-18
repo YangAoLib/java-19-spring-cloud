@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: nacos-config-client-a
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      username: nacos
+      password: nacos
+      config:
+        namespace: 4fb7b1c2-e9fc-4665-b176-5915d4e1530a
+        file-extension: yml
