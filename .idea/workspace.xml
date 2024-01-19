@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos配置读取配置与读取顺序">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/src/main/java/edu/yangao/Nacos05ConfigClientMuchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/src/main/java/edu/yangao/config/YangAoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/src/main/java/edu/yangao/config/YangAoNacosConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/src/main/java/edu/yangao/controller/TestConfigCenterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/src/test/java/edu/yangao/Nacos05ConfigClientMuchApplicationTests.java" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos同时获取多个配置">
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/src/main/java/edu/yangao/Nacos06ConfigClientShareApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/src/test/java/edu/yangao/Nacos06ConfigClientShareApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -268,7 +265,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Nacos05ConfigClientMuchApplication">
+  <component name="RunManager" selected="Spring Boot.Nacos06ConfigClientShareApplication">
     <configuration name="generated-requests | direct login" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="direct login" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -651,9 +648,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nacos05ConfigClientMuchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/配置中心/客户端" temporary="true" nameIsGenerated="true">
+    <configuration name="Nacos05ConfigClientMuchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/配置中心/客户端" nameIsGenerated="true">
       <module name="nacos-05-config-client-much" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos05ConfigClientMuchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.yangao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nacos06ConfigClientShareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="06nacos/配置中心/客户端" nameIsGenerated="true">
+      <module name="nacos-06-config-client-share" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.yangao.Nacos06ConfigClientShareApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.yangao.*" />
@@ -841,10 +851,10 @@
       <item itemvalue="Spring Boot.Nacos03GatewayApplication" />
       <item itemvalue="Spring Boot.Nacos04ConfigClientAApplication" />
       <item itemvalue="Spring Boot.Nacos05ConfigClientMuchApplication" />
+      <item itemvalue="Spring Boot.Nacos06ConfigClientShareApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Nacos05ConfigClientMuchApplication" />
         <item itemvalue="JUnit.ServiceOrderApplicationTest.mockTest" />
         <item itemvalue="HTTP 请求.generated-requests | test-auth" />
         <item itemvalue="HTTP 请求.generated-requests | direct login" />
@@ -972,15 +982,7 @@
       <workItem from="1705540653625" duration="2374000" />
       <workItem from="1705555431833" duration="6666000" />
       <workItem from="1705627647129" duration="4452000" />
-      <workItem from="1705639060665" duration="2367000" />
-    </task>
-    <task id="LOCAL-00024" summary="feat: feign 日志输出">
-      <option name="closed" value="true" />
-      <created>1703553819644</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1703553819644</updated>
+      <workItem from="1705639060665" duration="4229000" />
     </task>
     <task id="LOCAL-00025" summary="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）">
       <option name="closed" value="true" />
@@ -1366,7 +1368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705632881420</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="feat: nacos同时获取多个配置">
+      <option name="closed" value="true" />
+      <created>1705642722878</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1705642722878</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1385,7 +1395,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: 修改全局过滤器优先级" />
     <MESSAGE value="arst: 测试" />
     <MESSAGE value="arst: test" />
     <MESSAGE value="feat: 通过过滤器实现IP黑名单拦截" />
@@ -1410,7 +1419,8 @@
     <MESSAGE value="feat: 从nacos配置中心获取配置" />
     <MESSAGE value="feat: nacos动态获取配置与配置回滚" />
     <MESSAGE value="feat: nacos配置读取配置与读取顺序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos配置读取配置与读取顺序" />
+    <MESSAGE value="feat: nacos同时获取多个配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos同时获取多个配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

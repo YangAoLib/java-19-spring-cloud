@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/cloud-06-nacos/nacos-03-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-06-nacos/nacos-04-config-client-a/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-06-nacos/nacos-05-config-client-much/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

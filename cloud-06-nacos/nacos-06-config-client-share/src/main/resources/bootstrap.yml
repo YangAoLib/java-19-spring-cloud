@@ -1,0 +1,24 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: nacos-config-client-share
+    cloud:
+        nacos:
+            server-addr: localhost:8848
+            password: nacos
+            username: nacos
+            config:
+                namespace: 4fb7b1c2-e9fc-4665-b176-5915d4e1530a
+                group: YANG_AO_GROUP
+                prefix: nacos-config-client-share-body
+                file-extension: yml
+                # 配置文件获取顺序 {@link com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate}
+                # 1. 读取共享配置
+                # 2. 读取扩展配置
+                # 3. 读取本体配置 {@link cloud-06-nacos/nacos-04-config-client-a/src/main/resources/bootstrap.yml spring.cloud.nacos.config}
+
+                # 共享配置文件（与扩展配置相同, 应该只是概念上的区分）
+                # 直接写 dataId 默认的组为 DEFAULT_GROUP 默认不开启刷新
+                shared-configs:
+                    - application-dev.yml
