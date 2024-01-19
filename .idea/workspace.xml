@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos同时获取多个配置">
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/src/main/java/edu/yangao/Nacos06ConfigClientShareApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-06-nacos/nacos-06-config-client-share/src/test/java/edu/yangao/Nacos06ConfigClientShareApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0f29b2-6bae-4a9c-ba6a-75b4fa0f3316" name="更改" comment="feat: nacos读取共享配置（与扩展配置操作相同 概念上的区分）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="3900b874-0285-4227-a598-ed460de4f297" name="idea配置" comment="">
@@ -120,105 +114,106 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Docker.PandoraNext.executor": "Run",
-    "HTTP 请求.ServiceOrderApplication | #1.executor": "Run",
-    "HTTP 请求.generated-requests | #1.executor": "Run",
-    "HTTP 请求.generated-requests | #2.executor": "Run",
-    "HTTP 请求.generated-requests | direct login.executor": "Run",
-    "HTTP 请求.generated-requests | login.executor": "Run",
-    "HTTP 请求.generated-requests | test-auth.executor": "Run",
-    "JAR 应用程序.zipkin-链路追踪.executor": "Run",
-    "JUnit.CglibFirstTest.testCglib.executor": "Run",
-    "JUnit.CryptoTest.testCustomizeAes.executor": "Run",
-    "JUnit.CryptoTest.testSM4.executor": "Run",
-    "JUnit.DateUtilTest.testDateFormat.executor": "Run",
-    "JUnit.Feign02ConsumerApplicationTests.contextLoads.executor": "Run",
-    "JUnit.Gateway01GatewayApplicationTests.contextLoads.executor": "Run",
-    "JUnit.HutoolCryptoTest.testAes.executor": "Run",
-    "JUnit.ProviderFeignCglibTest.testInvoke.executor": "Run",
-    "JUnit.ProviderFeignProxyTest.testInvoke.executor": "Run",
-    "JUnit.ProviderFeignProxyTest.testURI.executor": "Run",
-    "JUnit.ServiceOrderApplicationTest.mockTest.executor": "Run",
-    "JUnit.TimeIntervalTest.testInterval.executor": "Run",
-    "Maven.feign-02-consumer [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.nacos-2.0.3-cluster-1.executor": "Run",
-    "Shell Script.nacos-2.0.3-cluster-2.executor": "Run",
-    "Shell Script.nacos-2.0.3-cluster-3.executor": "Run",
-    "Shell Script.nacos-2.0.3-default.executor": "Run",
-    "Shell Script.nacos-2.0.3-standalone.executor": "Run",
-    "Shell Script.nacos-2.0.3.executor": "Run",
-    "Spring Boot.AdminServerApplication.executor": "Run",
-    "Spring Boot.Eureka01EurekaServerDockerApplication.executor": "JRebel Debug",
-    "Spring Boot.Eureka02EurekaClient-A-Application-8083.executor": "Run",
-    "Spring Boot.Eureka02EurekaClient-A-Application.executor": "JRebel Debug",
-    "Spring Boot.Eureka04RestTemplateApplication.executor": "JRebel Debug",
-    "Spring Boot.Feign01ProviderApplication-8090.executor": "Run",
-    "Spring Boot.Feign01ProviderApplication-8091.executor": "Run",
-    "Spring Boot.Feign02ConsumerApplication.executor": "Debug",
-    "Spring Boot.Gateway01GatewayApplication-80.executor": "JRebel Executor",
-    "Spring Boot.Gateway01GatewayApplication-81.executor": "JRebel Executor",
-    "Spring Boot.Gateway01GatewayApplication-82.executor": "JRebel Executor",
-    "Spring Boot.Gateway01GatewayApplication.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication-8080.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication-8081.executor": "JRebel Executor",
-    "Spring Boot.Gateway02LoginServerApplication.executor": "Run",
-    "Spring Boot.Gateway03TestAuthServerApplication.executor": "JRebel Executor",
-    "Spring Boot.Hystrix01RentCarProviderApplication-8090.executor": "Run",
-    "Spring Boot.Hystrix01RentCarProviderApplication-8091.executor": "Run",
-    "Spring Boot.Hystrix02RentCarConsumerApplication.executor": "Run",
-    "Spring Boot.Hystrix03HedgehogApplication.executor": "Run",
-    "Spring Boot.Nacos01ClientAApplication-8080.executor": "Run",
-    "Spring Boot.Nacos01ClientAApplication-8081.executor": "Run",
-    "Spring Boot.Nacos01ClientAApplication.executor": "JRebel Executor",
-    "Spring Boot.Nacos02ClientBApplication.executor": "Run",
-    "Spring Boot.Nacos03GatewayApplication.executor": "Run",
-    "Spring Boot.Nacos04ConfigClientAApplication.executor": "Run",
-    "Spring Boot.Nacos05ConfigClientMuchApplication.executor": "Run",
-    "Spring Boot.Ribbon01RibbonProviderApplication-8081.executor": "JRebel Executor",
-    "Spring Boot.Ribbon01RibbonProviderApplication-8082.executor": "JRebel Executor",
-    "Spring Boot.Ribbon02ConsumerApplication.executor": "JRebel Debug",
-    "Spring Boot.ServiceOrderApplication.executor": "Run",
-    "Spring Boot.ServiceUserApplication.executor": "Run",
-    "StatusDashboardGroupingRule": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-06-nacos/nacos-05-config-client-much/src/main/java/edu/yangao",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31300348",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "Console",
-    "vue.rearranger.settings.migration": "true",
-    "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.prj.diagnostic"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.PandoraNext.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.ServiceOrderApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | direct login.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | login.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | test-auth.executor&quot;: &quot;Run&quot;,
+    &quot;JAR 应用程序.zipkin-链路追踪.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CglibFirstTest.testCglib.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CryptoTest.testCustomizeAes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CryptoTest.testSM4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DateUtilTest.testDateFormat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Feign02ConsumerApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Gateway01GatewayApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HutoolCryptoTest.testAes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProviderFeignCglibTest.testInvoke.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProviderFeignProxyTest.testInvoke.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProviderFeignProxyTest.testURI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ServiceOrderApplicationTest.mockTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeIntervalTest.testInterval.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.feign-02-consumer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.nacos-2.0.3-cluster-1.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.nacos-2.0.3-cluster-2.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.nacos-2.0.3-cluster-3.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.nacos-2.0.3-default.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.nacos-2.0.3-standalone.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.nacos-2.0.3.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AdminServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Eureka01EurekaServerDockerApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.Eureka02EurekaClient-A-Application-8083.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Eureka02EurekaClient-A-Application.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.Eureka04RestTemplateApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.Feign01ProviderApplication-8090.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Feign01ProviderApplication-8091.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Feign02ConsumerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication-80.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication-81.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication-82.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway01GatewayApplication.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway02LoginServerApplication-8080.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway02LoginServerApplication-8081.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Gateway02LoginServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Gateway03TestAuthServerApplication.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Hystrix01RentCarProviderApplication-8090.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix01RentCarProviderApplication-8091.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix02RentCarConsumerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hystrix03HedgehogApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos01ClientAApplication-8080.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos01ClientAApplication-8081.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos01ClientAApplication.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Nacos02ClientBApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos03GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos04ConfigClientAApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos05ConfigClientMuchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Nacos06ConfigClientShareApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Ribbon01RibbonProviderApplication-8081.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Ribbon01RibbonProviderApplication-8082.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Spring Boot.Ribbon02ConsumerApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.ServiceOrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceUserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;StatusDashboardGroupingRule&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/learn/java/spring-cloud/java-19-spring-cloud/cloud-06-nacos/nacos-06-config-client-share/src/main/java/edu/yangao&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31300348&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;zielu.gittoolbox.prj.config.selected.tab.id&quot;: &quot;zielu.gittoolbox.config.prj.diagnostic&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
-      "TEXT"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="debugInitializationType" value="NONE" />
     <option name="notificationShown" value="true" />
@@ -231,11 +226,11 @@
       <recent name="edu.yangao.feign.hystrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\nacos-06-config-client-share\src\main\java\edu\yangao" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\nacos-05-config-client-much\src\main\java\edu\yangao" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\src\main\resources\nacos-2.0.3-cluster\cluster-3" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\src\main\resources\nacos-2.0.3-cluster\cluster-1" />
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\src\main\resources\nacos-cluster\cluster-1" />
-      <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\src\main\resources\nacos-cluster" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\learn\java\spring-cloud\java-19-spring-cloud\cloud-06-nacos\src\main\resources\nacos-cluster\cluster-3" />
@@ -982,15 +977,8 @@
       <workItem from="1705540653625" duration="2374000" />
       <workItem from="1705555431833" duration="6666000" />
       <workItem from="1705627647129" duration="4452000" />
-      <workItem from="1705639060665" duration="4229000" />
-    </task>
-    <task id="LOCAL-00025" summary="feat: hystrix 熔断器使用（feign-fallback、@HystrixCommand）">
-      <option name="closed" value="true" />
-      <created>1703572332805</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1703572332805</updated>
+      <workItem from="1705639060665" duration="5718000" />
+      <workItem from="1705649482096" duration="1789000" />
     </task>
     <task id="LOCAL-00026" summary="feat: 手写类似熔断器功能 使用aop针对方法进行熔断">
       <option name="closed" value="true" />
@@ -1376,7 +1364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705642722878</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="feat: nacos读取共享配置（与扩展配置操作相同 概念上的区分）">
+      <option name="closed" value="true" />
+      <created>1705645369268</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1705645369268</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1395,7 +1391,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="arst: 测试" />
     <MESSAGE value="arst: test" />
     <MESSAGE value="feat: 通过过滤器实现IP黑名单拦截" />
     <MESSAGE value="fix: 警告消除" />
@@ -1420,7 +1415,8 @@
     <MESSAGE value="feat: nacos动态获取配置与配置回滚" />
     <MESSAGE value="feat: nacos配置读取配置与读取顺序" />
     <MESSAGE value="feat: nacos同时获取多个配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos同时获取多个配置" />
+    <MESSAGE value="feat: nacos读取共享配置（与扩展配置操作相同 概念上的区分）" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: nacos读取共享配置（与扩展配置操作相同 概念上的区分）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
