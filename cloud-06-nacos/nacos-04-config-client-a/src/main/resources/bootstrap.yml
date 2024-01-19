@@ -3,11 +3,25 @@ server:
 spring:
   application:
     name: nacos-config-client-a
+  profiles:
+    active: dev
   cloud:
     nacos:
       server-addr: localhost:8848
       username: nacos
       password: nacos
       config:
+        # 配置文件读取规则 {@link com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadApplicationConfiguration}
+        # 1. 读取DataId为 文件名前缀 的配置
+        # 2. 读取DataId为 文件名前缀 + 后缀 的配置
+        # 3. 读取DataId为 文件名前缀 + - + ${spring.profiles.active} + 后缀的配置
+        # 在nacos中创建配置时最好添加文件后缀 不然可能匹配时会出现错误
+
+        # 配置所属命名空间
         namespace: 4fb7b1c2-e9fc-4665-b176-5915d4e1530a
+        # 配置所属GROUP 默认为 DEFAULT_GROUP
+        group: YANG_AO_GROUP
+        # 文件名前缀 默认为 ${spring.application.name}
+        prefix: nacos-config-client-another
+        # 文件名扩展
         file-extension: yml
