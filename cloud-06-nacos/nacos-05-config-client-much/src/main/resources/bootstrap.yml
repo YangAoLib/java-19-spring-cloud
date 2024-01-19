@@ -1,0 +1,25 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: nacos-config-client-much
+    cloud:
+        nacos:
+            server-addr: localhost:8848
+            username: nacos
+            password: nacos
+            config:
+                file-extension: yml
+                namespace: 4fb7b1c2-e9fc-4665-b176-5915d4e1530a
+                group: YANG_AO_GROUP
+                # 读取多个配置文件 填写对应配置文件信息即可 可以不在同一个组但是一定要在同一个命名空间
+                extension-configs:
+                      # 对应配置的 data-id
+                    - data-id: nacos-config-client-another.yml
+                      # 对应配置组
+                      group: YANG_AO_GROUP
+                      # 是否开启动态刷新 默认为 false
+                      refresh: true
+                    - data-id: nacos-config-client-another-dev.yml
+                      group: YANG_AO_GROUP
+                      refresh: false
